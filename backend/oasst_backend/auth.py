@@ -22,7 +22,7 @@ def create_access_token(data: dict) -> str:
 
 def get_account_from_discord_id(db: Session, discord_id: str) -> Optional[Account]:
     """
-    Get the Open-Assistant Account associated with the given Discord ID.
+    Get the open-models-iecho Account associated with the given Discord ID.
     """
 
     account: Account = (

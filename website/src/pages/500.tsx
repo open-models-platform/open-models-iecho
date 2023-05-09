@@ -10,7 +10,7 @@ function ServerError() {
   return (
     <>
       <Head>
-        <title>500 - Open Assistant</title>
+        <title>500 - Open Models iEcho</title>
         <meta name="404" content="Sorry, this page doesn't exist." />
       </Head>
       <Center flexDirection="column" gap="4" fontSize="lg" className="subpixel-antialiased oa-basic-theme">
@@ -25,7 +25,7 @@ function ServerError() {
           >
             <Link
               key="Report a Bug"
-              href="https://github.com/LAION-AI/Open-Assistant/issues/new/choose"
+              href="https://github.com/open-models-platform/open-models-iecho/issues/new/choose"
               aria-label="Report a Bug"
               className="flex items-center"
               _hover={{ textDecoration: "none" }}

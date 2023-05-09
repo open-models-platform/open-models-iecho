@@ -34,7 +34,7 @@ const StatusIndex = () => {
   return (
     <>
       <Head>
-        <title>Status - Open Assistant</title>
+        <title>Status - Open Models iEcho</title>
       </Head>
 
       <AdminArea>

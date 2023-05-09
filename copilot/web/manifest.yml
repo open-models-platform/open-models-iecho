@@ -25,8 +25,8 @@ network:
 environments:
   staging:
     variables:
-      NEXTAUTH_URL: https://web.staging.open-assistant.surfacedata.org
-      FASTAPI_URL: https://api.staging.open-assistant.surfacedata.org
+      NEXTAUTH_URL: https://web.staging.open-models-iecho.surfacedata.org
+      FASTAPI_URL: https://api.staging.open-models-iecho.surfacedata.org
 
 secrets:
   DATABASE_URL: /copilot/${COPILOT_APPLICATION_NAME}/${COPILOT_ENVIRONMENT_NAME}/secrets/DATABASE_URL

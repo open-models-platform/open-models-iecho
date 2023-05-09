@@ -1,4 +1,4 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/data/datasets/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/data/datasets/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
 ## **Overview**
 
@@ -58,8 +58,8 @@ following columns:
 This type of dataset is designed for conversations with multiple continuations.
 In this format, each conversation is represented as a tree structure, where each
 node represents a message from the user or the assistant. For instance,
-Open-Assistant is collecting the data in a similar format
-([example](https://github.com/LAION-AI/Open-Assistant/blob/main/model/model_eval/manual/data/en_100_message.jsonl.gz)).
+open-models-iecho is collecting the data in a similar format
+([example](https://github.com/open-models-platform/open-models-iecho/blob/main/model/model_eval/manual/data/en_100_message.jsonl.gz)).
 
 The dataset must be a jsonl file with the following schema:
 
@@ -159,7 +159,7 @@ The dataset must adhere to the following requirements:
 To add a new dataset to OpenAssistant, follow these steps:
 
 1. **Create an issue**: Create a new
-   [issue](https://github.com/LAION-AI/Open-Assistant/issues/new) and describe
+   [issue](https://github.com/open-models-platform/open-models-iecho/issues/new) and describe
    your proposal for the new dataset.
 
 2. **Create a dataset on Hugging Face**: Create a dataset on
@@ -174,7 +174,7 @@ To add a new dataset to OpenAssistant, follow these steps:
 
 To create a new dataset on Hugging Face, follow these steps:
 
-#### 1. Convert your dataset file(s) to the Parquet format using [pandas](https://pandas.pydata.org/) and [pyarrow](https://pypi.org/project/pyarrow/) libraries:
+#### 1. Convert your dataset file(s) to the Parquet format using [pandas](https://pandas.pydata.org/) and [pyarrow](https://pypi.org/project/pyarrow/) libraries
 
 ```python
 import pandas as pd
@@ -213,7 +213,7 @@ from huggingface_hub import notebook_login
 notebook_login()
 ```
 
-#### 4. Push the Parquet file to Hugging Face using the following code:
+#### 4. Push the Parquet file to Hugging Face using the following code
 
 ```python
 from datasets import Dataset
@@ -224,7 +224,7 @@ ds.push_to_hub("your_huggingface_name/dataset_name")
 #### 5. Update the Hugging Face `README.md` file
 
 Update the `README.md` file of your dataset by visiting this link:
-https://huggingface.co/datasets/your_huggingface_name/dataset_name/edit/main/README.md
+<https://huggingface.co/datasets/your_huggingface_name/dataset_name/edit/main/README.md>
 (paste your HuggingFace name and dataset)
 
 ### **Making a Pull Request**

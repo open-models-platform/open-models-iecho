@@ -1,14 +1,14 @@
 import { SlashCommandBuilder } from "discord.js";
-import { getUserLang } from "../modules/open-assistant/user.js";
-import { getTranlation } from "../modules/open-assistant/langs.js";
+import { getUserLang } from "../modules/open-models-iecho/user.js";
+import { getTranlation } from "../modules/open-models-iecho/langs.js";
 import {
   langInteraction,
   initInteraction,
-} from "../modules/open-assistant/interactions.js";
+} from "../modules/open-models-iecho/interactions.js";
 
 export default {
   data: new SlashCommandBuilder()
-    .setName("open-assistant")
+    .setName("open-models-iecho")
     .setDescription("Help in the data collection of open assistant"),
   async execute(interaction, client, commands, commandType) {
     var lang = await getUserLang(interaction.user.id);

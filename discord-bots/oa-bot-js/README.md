@@ -1,7 +1,7 @@
-# Open Assistant Discord bot
+# Open Models iEcho Discord bot
 
-This is a bot for the Open Assistant project. It is a Discord bot that allows
-you to interact with Open Assistant.
+This is a bot for the Open Models iEcho project. It is a Discord bot that allows
+you to interact with Open Models iEcho.
 
 ## Start bot
 

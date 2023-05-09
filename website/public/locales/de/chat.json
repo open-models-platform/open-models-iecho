@@ -34,6 +34,6 @@
   "used": "Benutzt",
   "unverified_plugin": "UNVERIFIZIERT",
   "verified_plugin": "VERIFVERIFIZIERTIED",
-  "unverified_plugin_description": "Dieses Plugin wurde nicht vom Open Assistant-Team verifiziert. Benutzung auf eigene Gefahr.",
-  "verified_plugin_description": "Dieses Plugin wurde vom Open Assistant-Team verifiziert."
+  "unverified_plugin_description": "Dieses Plugin wurde nicht vom Open Models iEcho-Team verifiziert. Benutzung auf eigene Gefahr.",
+  "verified_plugin_description": "Dieses Plugin wurde vom Open Models iEcho-Team verifiziert."
 }

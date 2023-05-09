@@ -69,12 +69,12 @@ const PrivacyPolicy = () => {
     {
       number: "3",
       title: "Data We Collect",
-      desc: "Open Assistant tracks data in the following conditions",
+      desc: "Open Models iEcho tracks data in the following conditions",
       sections: [
         {
           number: "3.1",
           title: "Using the Discord Bot",
-          desc: "When using the Open Assistant Discord bot, we privately track and store the unique Discord ID of the user submitting responses. Each submitted response is associated with the user’s Discord ID.",
+          desc: "When using the Open Models iEcho Discord bot, we privately track and store the unique Discord ID of the user submitting responses. Each submitted response is associated with the user’s Discord ID.",
         },
         {
           number: "3.2",
@@ -165,8 +165,8 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy - Open Assistant</title>
-        <meta name="description" content="Open Assistant's Privacy Policy" />
+        <title>Privacy Policy - Open Models iEcho</title>
+        <meta name="description" content="Open Models iEcho's Privacy Policy" />
       </Head>
       <Box p="6" className="oa-basic-theme">
         <Box className="max-w-4xl mx-auto">
@@ -181,7 +181,7 @@ const PrivacyPolicy = () => {
                   Overview
                 </Heading>
                 <Text>
-                  We are pleased that you are interested in our work and welcome you to our website open-assistant.io.
+                  We are pleased that you are interested in our work and welcome you to our website open-models-iecho.io.
                   In this Privacy Policy you will learn which personal data we process when you visit our website and to
                   what kind of purpose, and also what rights you have regarding these data. Categorically, we only store
                   data as long as we need them. There is no legal obligation to provide us with personal data. Automated
@@ -210,8 +210,8 @@ const PrivacyPolicy = () => {
               </Heading>
               <Text>
                 Email:{" "}
-                <Link href="mailto:privacy@open-assistant.io" color="blue.500" fontWeight="bold">
-                  privacy@open-assistant.io
+                <Link href="mailto:privacy@open-models-iecho.io" color="blue.500" fontWeight="bold">
+                  privacy@open-models-iecho.io
                 </Link>
               </Text>
             </Stack>

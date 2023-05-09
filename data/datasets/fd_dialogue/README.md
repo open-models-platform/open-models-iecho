@@ -34,7 +34,7 @@ size_categories:
 # Dataset Card for "fd_dialogue"
 
 This dataset contains transcripts for famous movies and TV shows from
-https://transcripts.foreverdreaming.org/ (the crawler notebooks are not included
+<https://transcripts.foreverdreaming.org/> (the crawler notebooks are not included
 with the dataset).
 
 The dataset contains **only a small portion of Forever Dreaming's data**, as
@@ -52,7 +52,7 @@ PERSON 1: What happened?
 ```
 
 Each row in the dataset is a single TV episode or movie. (**5381** rows total)
-following the [OpenAssistant](https://open-assistant.io/) format. The METADATA
+following the [OpenAssistant](https://open-models-iecho.io/) format. The METADATA
 column contains _type_ (movie or series), _show_ and the _episode_ ("" for
 movies) keys and string values as a JSON string.
 

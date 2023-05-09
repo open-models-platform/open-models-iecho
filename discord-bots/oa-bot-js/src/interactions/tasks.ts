@@ -7,8 +7,8 @@ import {
   TextInputStyle,
   TextInputBuilder,
 } from "discord.js";
-import { getUserLang, setUserLang } from "../modules/open-assistant/user.js";
-import OpenAssistant from "open-assistant.js";
+import { getUserLang, setUserLang } from "../modules/open-models-iecho/user.js";
+import OpenAssistant from "open-models-iecho.js";
 var oa: OpenAssistant = new OpenAssistant(
   process.env.OA_APIKEY,
   process.env.OA_APIURL
@@ -17,21 +17,21 @@ import {
   getLocaleDisplayName,
   locales,
   getTranlation,
-} from "../modules/open-assistant/langs.js";
-import { formatTaskType, submitTask } from "../modules/open-assistant/tasks.js";
+} from "../modules/open-models-iecho/langs.js";
+import { formatTaskType, submitTask } from "../modules/open-models-iecho/tasks.js";
 import {
   langInteraction,
   taskInteraction,
   initInteraction,
   infoInteraction,
   labelInteraction,
-} from "../modules/open-assistant/interactions.js";
+} from "../modules/open-models-iecho/interactions.js";
 import {
   formatLabel,
   getLabel,
   labelText,
   getLabels,
-} from "../modules/open-assistant/labels.js";
+} from "../modules/open-models-iecho/labels.js";
 
 export default {
   data: {
@@ -58,7 +58,7 @@ export default {
       if (authorId != interaction.user.id) {
         await interaction.reply({
           ephemeral: true,
-          content: `${interaction.user}, you can't do this action please use '/open-assistant' to get a task.`,
+          content: `${interaction.user}, you can't do this action please use '/open-models-iecho' to get a task.`,
         });
         return;
       }
@@ -75,7 +75,7 @@ export default {
       if (authorId != interaction.user.id) {
         await interaction.reply({
           ephemeral: true,
-          content: `${interaction.user}, you can't do this action please use '/open-assistant' to get a task.`,
+          content: `${interaction.user}, you can't do this action please use '/open-models-iecho' to get a task.`,
         });
         return;
       }
@@ -92,7 +92,7 @@ export default {
       if (authorId != interaction.user.id) {
         await interaction.reply({
           ephemeral: true,
-          content: `${interaction.user}, you can't do this action please use '/open-assistant' to get a task.`,
+          content: `${interaction.user}, you can't do this action please use '/open-models-iecho' to get a task.`,
         });
         return;
       }
@@ -108,7 +108,7 @@ export default {
             selected
           )} (${selected})**`
         )
-        .setURL("https://open-assistant.io/?ref=turing");
+        .setURL("https://open-models-iecho.io/?ref=turing");
       interaction.editReply({
         embeds: [successEmbed],
         components: [],
@@ -121,7 +121,7 @@ export default {
       if (authorId != interaction.user.id) {
         await interaction.reply({
           ephemeral: true,
-          content: `${interaction.user}, you can't do this action please use '/open-assistant' to get a task.`,
+          content: `${interaction.user}, you can't do this action please use '/open-models-iecho' to get a task.`,
         });
         return;
       }
@@ -133,7 +133,7 @@ export default {
       if (authorId != interaction.user.id) {
         await interaction.reply({
           ephemeral: true,
-          content: `${interaction.user}, you can't do this action please use '/open-assistant' to get a task.`,
+          content: `${interaction.user}, you can't do this action please use '/open-models-iecho' to get a task.`,
         });
         return;
       }
@@ -156,7 +156,7 @@ export default {
       if (authorId != interaction.user.id) {
         await interaction.reply({
           ephemeral: true,
-          content: `${interaction.user}, you can't do this action please use '/open-assistant' to get a task.`,
+          content: `${interaction.user}, you can't do this action please use '/open-models-iecho' to get a task.`,
         });
         return;
       }
@@ -281,7 +281,7 @@ export default {
       if (authorId != interaction.user.id) {
         await interaction.reply({
           ephemeral: true,
-          content: `${interaction.user}, you can't do this action please use '/open-assistant' to get a task.`,
+          content: `${interaction.user}, you can't do this action please use '/open-models-iecho' to get a task.`,
         });
         return;
       }

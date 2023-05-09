@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "model_training"
-description = "Open Assistant Model Training Module"
+description = "Open Models iEcho Model Training Module"
 version = "1.0.0"
 authors = [
-    { name = "LAION-AI", email = "contact@laion.ai" }
+    { name = "open-models-platform", email = "contact@open.models.platform" }
 ]
 dependencies = [
     "accelerate>=0.15.0",

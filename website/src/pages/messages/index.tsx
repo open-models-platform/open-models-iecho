@@ -24,8 +24,8 @@ const MessagesDashboard = () => {
   return (
     <>
       <Head>
-        <title>Messages - Open Assistant</title>
-        <meta name="description" content="Chat with Open Assistant and provide feedback." />
+        <title>Messages - Open Models iEcho</title>
+        <meta name="description" content="Chat with Open Models iEcho and provide feedback." />
       </Head>
       <SimpleGrid columns={[1, 1, 1, 1, 1, 2]} gap={4}>
         <Box>

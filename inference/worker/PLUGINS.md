@@ -1,7 +1,7 @@
 # Plugin system for OA
 
 This is a basic implementation of support for external augmentation and
-OpenAI/ChatGPT plugins into the Open-Assistant. In the current state, this is
+OpenAI/ChatGPT plugins into the open-models-iecho. In the current state, this is
 more of a proof-of-concept and should be considered to be used behind some
 experimental flag.
 
@@ -20,7 +20,7 @@ generation/streaming tokens to the frontend.
 
 Plugins are in essence just pretty wrappers around some kind of API-s and serve
 a purpose to help LLM utilize it more precisely and reliably, so they can be
-quite useful and powerful augmentation tools for Open-Assistant. Two main parts
+quite useful and powerful augmentation tools for open-models-iechocho. Two main parts
 of a plugin are the ai-plugin.json file, which is just the main descriptor of a
 plugin, and the second part is OpenAPI specification of the plugin API-s.
 
@@ -33,8 +33,8 @@ hosting a plugin as well as a template for basic plugins can be found
 For now, only non-authentication-based and only (**GET** request) plugins are
 supported. Some of them are:
 
-- https://www.klarna.com/.well-known/ai-plugin.json
-- https://www.joinmilo.com/.well-known/ai-plugin.json
+- <https://www.klarna.com/.well-known/ai-plugin.json>
+- <https://www.joinmilo.com/.well-known/ai-plugin.json>
 
 Adding support for all other request types would be quite tricky with the
 current approach. It would be best to drop current “mansplaining” of the API to
@@ -69,6 +69,6 @@ testing of the system alongside new OA model releases.
 ## Relevant files for the inference side of the plugin system
 
 - chat_chain.py
-- chat*chain_utils.py *(tweaking tools/plugin description string generation can
+- chat*chain_utils.py*(tweaking tools/plugin description string generation can
   help for some models)\_
-- chat*chain_prompts.py *(tweaking prompts can help also)\_
+- chat*chain_prompts.py*(tweaking prompts can help also)\_

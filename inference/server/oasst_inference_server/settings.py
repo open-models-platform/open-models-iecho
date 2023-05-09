@@ -10,7 +10,7 @@ def split_keys_string(keys: str | None):
 
 
 class Settings(pydantic.BaseSettings):
-    PROJECT_NAME: str = "open-assistant inference server"
+    PROJECT_NAME: str = "open-models-iecho inference server"
     redis_host: str = "localhost"
     redis_port: int = 6379
     redis_db: int = 0

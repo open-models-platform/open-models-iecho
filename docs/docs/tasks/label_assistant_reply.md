@@ -9,7 +9,7 @@ PII or sexual content.
 If you can't determine whether or not a reply is factually accurate, skip it
 instead. If you are unsure of the definition of any of the labels, look up their
 definition
-[here](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines#label-explanation).
+[here](https://projects.open.models.platform/open-models-iecho/docs/guides/guidelines#label-explanation).
 
 Replies generated from other chatbots such as ChatGPT are **not** permitted and
 in many cases against the terms of service of the provider. Answers that were
@@ -19,5 +19,5 @@ a human - just keep in mind that these tools aren't foolproof and can falsely
 accuse human-written text as machine-generated, and vice versa.
 
 Please make sure to read the
-[guidelines](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines#classifying-assistant)
+[guidelines](https://projects.open.models.platform/open-models-iechocho/docs/guides/guidelines#classifying-assistant)
 before submitting.

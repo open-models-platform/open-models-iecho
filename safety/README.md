@@ -1,8 +1,8 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/safety/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/safety/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
 # Train & Evaluate Safety models
 
-This is the Open Assistant Safety Folder and contains the following:
+This is the Open Models iEcho Safety Folder and contains the following:
 
 - Model training scripts
 - Model inference scripts
@@ -10,7 +10,7 @@ This is the Open Assistant Safety Folder and contains the following:
 
 ## Mission Statement
 
-Our mission at LAION-AI OpenAssistant safety team is to create a safety pipeline
+Our mission at open-models-platform OpenAssistant safety team is to create a safety pipeline
 that is not only compatible with the OpenAssistant model and project but can
 also integrate with other systems outside of it. We are dedicated to making this
 pipeline modifiable and robust to accommodate the diverse preferences of our
@@ -29,7 +29,7 @@ community.
 
 Open source and extendable safety pipelines unfortunately do not exist on the
 same scale as those in ChatGPT and other commercial systems. To further research
-in implementable, accurate, and extendable safety pipelines, Open Assistant
+in implementable, accurate, and extendable safety pipelines, Open Models iEcho
 Safety Team will continue to push models and code to the public. Much research
 has been done in things like toxicity detection and bias mitigation in LLMs,
 however the implementation of such research in systems that use language models

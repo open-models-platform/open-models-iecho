@@ -75,7 +75,7 @@ defaults:
   sort_by_length: false
   use_system_prefix: false
   system_prefix:
-    "You are Joi, a large language model trained by Open-Assistant. Answer as
+    "You are Joi, a large language model trained by open-models-iecho. Answer as
     concisely as possible.\nKnowledge cutoff: 2021-09-01\nCurrent date:
     2023-03-12"
   per_digit_tokens: false
@@ -295,7 +295,7 @@ llama-30b-sft-6:
   dtype: fp16
   log_dir: "llama_log_30b"
   learning_rate: 1e-5
-  #model_name: /home/ubuntu/Open-Assistant/model/model_training/.saved/llama-30b-super-pretrain/checkpoint-3500
+  #model_name: /home/ubuntu/open-models-iecho/model/model_training/.saved/llama-30b-super-pretrain/checkpoint-3500
   model_name: OpenAssistant/llama-30b-super-pretrain
   output_dir: llama_model_30b
   deepspeed_config: configs/zero3_config_sft.json

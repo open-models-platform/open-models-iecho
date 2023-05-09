@@ -12,5 +12,5 @@ to yours. Keep in mind that the reply you're submitting is supposed to be coming
 from the same user, so try asking follow-up question that might naturally arise.
 
 Please make sure to read the
-[guidelines](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines#user-reply)
+[guidelines](https://projects.open.models.platform/open-models-iecho/docs/guides/guidelines#user-reply)
 before submitting.

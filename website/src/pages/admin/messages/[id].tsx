@@ -45,7 +45,7 @@ const MessageDetail = () => {
   return (
     <>
       <Head>
-        <title>Open Assistant</title>
+        <title>Open Models iEcho</title>
       </Head>
       <AdminArea>
         {isLoading && <CircularProgress isIndeterminate></CircularProgress>}

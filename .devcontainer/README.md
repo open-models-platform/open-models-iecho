@@ -22,7 +22,7 @@ pre-commit run --all-files
 A successful run should look something like this:
 
 ```
-@andrewm4894 ➜ /workspaces/Open-Assistant (devcontainer-improvements) $ pre-commit run --all-files
+@andrewm4894 ➜ /workspaces/open-models-iecho (devcontainer-improvements) $ pre-commit run --all-files
 [INFO] Initializing environment for https://github.com/pre-commit/pre-commit-hooks.
 [INFO] Initializing environment for https://github.com/psf/black.
 [INFO] Initializing environment for https://github.com/psf/black:.[jupyter].
@@ -85,7 +85,7 @@ You should see some docker containers being pulled and activated.
 Once you see a line like:
 
 ```
-open-assistant-web-1 | Listening on port 3000 url: http://localhost:3000
+open-models-iecho-web-1 | Listening on port 3000 url: http://localhost:3000
 ```
 
 you should be able to access that port like below:

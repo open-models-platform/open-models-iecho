@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-The [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant/)
+The [open-models-platform/open-models-iecho](https://github.com/open-models-platform/open-models-iecho/)
 github repository aims to provide a diverse and accessible collection of
 datasets that can be used to train OpenAssistant models.<br/> Our goal is to
 cover a wide range of topics, languages and tasks.
@@ -67,7 +67,7 @@ The dataset must adhere to the following requirements:
 To add a new dataset to OpenAssistant, follow these steps:
 
 1. **Create an issue**: Create a new
-   [issue](https://github.com/LAION-AI/Open-Assistant/issues/new) and describe
+   [issue](https://github.com/open-models-platform/open-models-iecho/issues/new) and describe
    your proposal for the new dataset.
 
 2. **Create a dataset on Hugging Face**: Create a dataset on
@@ -82,7 +82,7 @@ To add a new dataset to OpenAssistant, follow these steps:
 
 To create a new dataset on Hugging Face, follow these steps:
 
-#### 1. Convert your dataset file(s) to the Parquet format using [pandas](https://pandas.pydata.org/) and [pyarrow](https://pypi.org/project/pyarrow/) libraries:
+#### 1. Convert your dataset file(s) to the Parquet format using [pandas](https://pandas.pydata.org/) and [pyarrow](https://pypi.org/project/pyarrow/) libraries
 
 ```python
 import pandas as pd
@@ -122,7 +122,7 @@ from huggingface_hub import notebook_login
 notebook_login()
 ```
 
-#### 4. Push the Parquet file to Hugging Face using the following code:
+#### 4. Push the Parquet file to Hugging Face using the following code
 
 ```python
 from datasets import Dataset
@@ -133,7 +133,7 @@ ds.push_to_hub("your_huggingface_name/dataset_name")
 #### 5. Update the Hugging Face `README.md` file
 
 Update the `README.md` file of your dataset by visiting this link:
-https://huggingface.co/datasets/your_huggingface_name/dataset_name/edit/main/README.md
+<https://huggingface.co/datasets/your_huggingface_name/dataset_name/edit/main/README.md>
 (paste your HuggingFace name and dataset)
 
 ### **Making a Pull Request**

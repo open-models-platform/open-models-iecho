@@ -10,7 +10,7 @@ guideline and leave feedback for each task.
 
 If you have further suggestions to improve any of our guidelines, or want to add
 more examples, create a pull request or suggest them on our
-[GitHub](https://github.com/LAION-AI/Open-Assistant).
+[GitHub](https://github.com/open-models-platform/open-models-iecho).
 
 ## 1. General rules
 
@@ -24,7 +24,7 @@ more examples, create a pull request or suggest them on our
 
 ## 2. Providing an assistant reply {#assistant-reply}
 
-### Do:
+### Do
 
 - Remain polite and treat the user with respect, even when not given the same
   courtesy.
@@ -56,7 +56,7 @@ more examples, create a pull request or suggest them on our
     [here](https://github.com/jincheng9/markdown_supported_languages#heres-a-full-list-of-supported-languages).
 - Be consistent in the style and tone of the assistant.
 
-### Don't:
+### Don't
 
 - Copy and paste text from other sources without editing. **This includes
   ChatGPT.**
@@ -93,7 +93,7 @@ more examples, create a pull request or suggest them on our
 
 ## 3. Providing an initial prompt or user reply {#user-reply}
 
-### Do:
+### Do
 
 - Ask questions that reflect real-life situations and needs.
 - Ask questions that might be directed towards search engines or specialists.
@@ -107,7 +107,7 @@ more examples, create a pull request or suggest them on our
 - Try to build upon the topic and ask a sensible follow-up question when
   replying to the assistant.
 
-### Don't:
+### Don't
 
 - Write prompts without a clear request.
 - Supply text that violates the law of Germany, UK, USA, or your country of
@@ -125,7 +125,7 @@ more examples, create a pull request or suggest them on our
 
 ## 4. Classifying an assistant reply {#classifying-assistant}
 
-### Do:
+### Do
 
 - Rate every criteria of each reply, unless it can't be discerned because it is
   spam or inappropriate.
@@ -137,7 +137,7 @@ more examples, create a pull request or suggest them on our
 - Research to make sure whether the reply is factually accurate.
 - Skip a classification if you are unable to determine the validity of reply.
 
-### Don't:
+### Don't
 
 - Judge quality based on personal beliefs. Assuming an opinion was warranted,
   fulfills the users request and doesn't violate any guidelines, it should not
@@ -149,7 +149,7 @@ more examples, create a pull request or suggest them on our
 
 ## 5. Classifying an initial prompt or user reply {#classifying-user}
 
-### Do:
+### Do
 
 - Rate every criteria of each prompt, unless it can't be discerned because it is
   spam or inappropriate.
@@ -158,7 +158,7 @@ more examples, create a pull request or suggest them on our
 - Use the [label explanations](#label-explanation) to determine which labels
   apply to the prompt.
 
-### Don't:
+### Don't
 
 - Judge quality based on personal beliefs. The opinion of the user should not
   impact the rating of the prompt.
@@ -167,7 +167,7 @@ more examples, create a pull request or suggest them on our
 
 ## 6. Ranking assistant replies {#ranking-assistant}
 
-### Do:
+### Do
 
 - Make sure to read every available reply.
 - Think about which reply best satisfies the request of the user.
@@ -181,7 +181,7 @@ more examples, create a pull request or suggest them on our
 - Rank replies that admit to not knowing the answer below factually correct, but
   above factually incorrect replies.
 
-### Don't:
+### Don't
 
 - Rank replies based on personal beliefs. Assuming an opinion was warranted,
   fulfills the users request and doesn't violate any guidelines, it should not

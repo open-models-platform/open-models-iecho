@@ -1,10 +1,10 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/docs/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/docs/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
 # Docs Site
 
-https://laion-ai.github.io/Open-Assistant/
+<https://open-models-platform.github.io/open-models-iechocho/>
 
-This [site](https://laion-ai.github.io/Open-Assistant/) is built using
+This [site](https://open-models-platform.github.io/open-models-iechocho/) is built using
 [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Contributing
@@ -31,13 +31,13 @@ If you would like to add a new page into an existing category:
 From within the `/docs/` folder.
 
 ```
-$ yarn
+yarn
 ```
 
 ### Local Development
 
 ```
-$ yarn start
+yarn start
 ```
 
 This command starts a local development server and opens up a browser window.

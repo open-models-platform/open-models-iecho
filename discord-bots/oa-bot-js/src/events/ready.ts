@@ -8,7 +8,7 @@ export default {
     client.user.setPresence({
       activities: [
         {
-          name: `v${client.version} | open-assistant.io`,
+          name: `v${client.version} | open-models-iecho.io`,
           type: ActivityType.Playing,
         },
       ],

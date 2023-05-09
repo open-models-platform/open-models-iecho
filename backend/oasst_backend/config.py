@@ -157,7 +157,7 @@ class TreeManagerConfiguration(BaseModel):
 
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "open-assistant backend"
+    PROJECT_NAME: str = "open-models-iecho backend"
     API_V1_STR: str = "/api/v1"
     OFFICIAL_WEB_API_KEY: str = "1234"
 

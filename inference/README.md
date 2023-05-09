@@ -1,4 +1,4 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/inference/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/inference/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
 # OpenAssistant Inference
 
@@ -13,7 +13,7 @@ The services of the inference stack are prefixed with "inference-" in the
 [unified compose descriptor](../docker-compose.yaml). <br/> Prior to building
 those, please ensure that you have Docker's new
 [BuildKit](https://docs.docker.com/build/buildkit/) backend enabled. See the
-[FAQ](https://projects.laion.ai/Open-Assistant/docs/faq#enable-dockers-buildkit-backend)
+[FAQ](https://projects.open.models.platform/open-models-iecho/docs/faq#enable-dockers-buildkit-backend)
 for more info.
 
 To build the services, run:
@@ -71,7 +71,7 @@ cd tests/locust
 locust
 ```
 
-Navigate to http://0.0.0.0:8089/ to view the locust UI.
+Navigate to <http://0.0.0.0:8089/> to view the locust UI.
 
 ## API Docs
 

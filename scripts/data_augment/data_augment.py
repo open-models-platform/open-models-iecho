@@ -125,7 +125,7 @@ class EssayReviser(DataAugmenter):
         # you can change the number 60 to change how much corrupted this essay will be
         for _ in range(len(essay) // 60):
             rand = random.randint(0, len(essay))
-            corrupted_essay = essay[:rand] + random.choice(string.ascii_letters) + essay[rand + 1 :]
+            corrupted_essay = essay[:rand] + random.choice(string.ascii_letters) + essay[rand + 1:]
 
         instructions.append("Fix typing errors in this essay" + corrupted_essay)
 
@@ -359,7 +359,7 @@ class EntityRecognizedSummarizer(DataAugmenter):
 
 class CodeBugger(DataAugmenter):
     """
-    https://github.com/LAION-AI/Open-Assistant/blob/main/notebooks/code-bugger/openbugger_example.md
+    https://github.com/open-models-platform/open-models-iecho/blob/main/notebooks/code-bugger/openbugger_example.md
     Openbugger is a Python package that allows you to inject syntax and logic errors into your code.
     This can be useful for testing the robustness of your code or for creating test cases for debugging exercises or for training an assistant to debug code.
     To install:

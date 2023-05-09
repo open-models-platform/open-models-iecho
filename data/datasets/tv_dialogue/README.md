@@ -55,25 +55,25 @@ We are somewhere else
 
 All dialogues were processed to follow this format. Each row is a single episode
 / movie (**2781** rows total) Following the
-[OpenAssistant](https://open-assistant.io/) format The METADATA column contains
+[OpenAssistant](https://open-models-iecho.io/) format The METADATA column contains
 dditional information as a JSON string.
 
 ## Dialogue only, with some information on the scene
 
 | Show                      | Number of scripts | Via                                                                                                     | Source               |
 | ------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------- | -------------------- |
-| Friends                   | 236 episodes      | https://github.com/emorynlp/character-mining                                                            | friends/emorynlp     |
-| The Office                | 186 episodes      | https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript                 | office/nasirkhalid24 |
-| Marvel Cinematic Universe | 18 movies         | https://www.kaggle.com/datasets/pdunton/marvel-cinematic-universe-dialogue                              | marvel/pdunton       |
-| Doctor Who                | 306 episodes      | https://www.kaggle.com/datasets/jeanmidev/doctor-who                                                    | drwho/jeanmidev      |
-| Star Trek                 | 708 episodes      | http://www.chakoteya.net/StarTrek/index.html based on https://github.com/GJBroughton/Star_Trek_Scripts/ | statrek/chakoteya    |
+| Friends                   | 236 episodes      | <https://github.com/emorynlp/character-mining>                                                            | friends/emorynlp     |
+| The Office                | 186 episodes      | <https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript>                 | office/nasirkhalid24 |
+| Marvel Cinematic Universe | 18 movies         | <https://www.kaggle.com/datasets/pdunton/marvel-cinematic-universe-dialogue>                              | marvel/pdunton       |
+| Doctor Who                | 306 episodes      | <https://www.kaggle.com/datasets/jeanmidev/doctor-who>                                                    | drwho/jeanmidev      |
+| Star Trek                 | 708 episodes      | <http://www.chakoteya.net/StarTrek/index.html> based on <https://github.com/GJBroughton/Star_Trek_Scripts/> | statrek/chakoteya    |
 
 ## Actual transcripts with detailed information on the scenes
 
 | Show          | Number of scripts | Via                                 | Source              |
 | ------------- | ----------------- | ----------------------------------- | ------------------- |
-| Top Movies    | 919 movies        | https://imsdb.com/                  | imsdb               |
-| Top Movies    | 171 movies        | https://www.dailyscript.com/        | dailyscript         |
-| Stargate SG-1 | 18 episodes       | https://imsdb.com/                  | imsdb               |
-| South Park    | 129 episodes      | https://imsdb.com/                  | imsdb               |
-| Knight Rider  | 80 episodes       | http://www.knightriderarchives.com/ | knightriderarchives |
+| Top Movies    | 919 movies        | <https://imsdb.com/>                  | imsdb               |
+| Top Movies    | 171 movies        | <https://www.dailyscript.com/>        | dailyscript         |
+| Stargate SG-1 | 18 episodes       | <https://imsdb.com/>                  | imsdb               |
+| South Park    | 129 episodes      | <https://imsdb.com/>                  | imsdb               |
+| Knight Rider  | 80 episodes       | <http://www.knightriderarchives.com/> | knightriderarchives |

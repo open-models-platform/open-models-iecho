@@ -3,7 +3,7 @@ title: The Architecture so Far!
 description: This is the architecture of our app so far.
 slug: 2023-02-11-architecture
 authors: AbdBarho
-tags: [open-assistant]
+tags: [open-models-iecho]
 ---
 
 I thought it would make sense to document our architecture as a blog post, since
@@ -14,7 +14,7 @@ A lot of work was done in the past couple of week to establish the needed
 infrastructure both for data collection and inference purposes. Thanks to
 everyone, and especially community members who supported us so far!
 
-Our current plan for the architecture of the Open Assistant is as follows:
+Our current plan for the architecture of the Open Models iEcho is as follows:
 
 ```mermaid
 flowchart TD
@@ -58,4 +58,4 @@ to the python backend.
 
 Of course, this is by no means final, and lot of questions are still open, and
 that is the fun of it! If you want to join us on our journey, just give our
-[github](https://github.com/LAION-AI/Open-Assistant) a look!
+[github](https://github.com/open-models-platform/open-models-iecho) a look!

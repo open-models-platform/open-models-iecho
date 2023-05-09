@@ -38,7 +38,7 @@ export const useSidebarItems = () => {
       },
       {
         labelID: "guidelines",
-        pathname: "https://projects.laion.ai/Open-Assistant/docs/guides/guidelines",
+        pathname: "https://projects.open.models.platform/open-models-iecho/docs/guides/guidelines",
         icon: ExternalLink,
         target: "_blank",
       },

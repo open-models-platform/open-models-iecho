@@ -1,1 +1,1 @@
-"""The official Open-Assistant Discord Bot."""
+"""The official open-models-iecho Discord Bot."""

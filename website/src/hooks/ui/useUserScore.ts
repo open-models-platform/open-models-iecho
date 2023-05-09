@@ -3,7 +3,7 @@ import { get } from "src/lib/api";
 import { LeaderboardEntity, LeaderboardTimeFrame } from "src/types/Leaderboard";
 import uswSWRImmutable from "swr/immutable";
 
-// https://github.com/LAION-AI/Open-Assistant/issues/1957
+// https://github.com/open-models-platform/open-models-iecho/issues/1957
 function* generateThresholds(baseline = 3, alpha = 1.1521, maxLevel = 100) {
   let sum = 0;
   yield sum;

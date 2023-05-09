@@ -26,7 +26,7 @@ produces a LLM model like gpt-3, galactica, etc.
 `/model/model_training`
 
 Using a pretrained LLM, we use Supervised Fine Tuning (SFT). We take
-demonstration data, in our case the Open Assistant dataset (oasst dataset)
+demonstration data, in our case the Open Models iEcho dataset (oasst dataset)
 created by volunteers, to learn a supervised policy (the SFT model) that
 generates outputs from a selected list of prompts. This represents the baseline
 model.
@@ -63,7 +63,7 @@ There are multiple different formats, so it can get confusing.
 
 The most up-to-date place to look for code is here:
 
-https://github.com/Open-Assistant/oasst-model-eval/blob/main/model_eval/manual/sampling_report.py
+<https://github.com/open-models-iecho/oasst-model-eval/blob/main/model_eval/manual/sampling_report.py>
 
 ## Message Format v1
 

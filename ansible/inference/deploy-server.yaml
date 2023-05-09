@@ -52,7 +52,7 @@
     - name: Create postgres containers
       community.docker.docker_container:
         name: "oasst-inference-{{ stack_name }}-postgres"
-        image: ghcr.io/laion-ai/open-assistant/oasst-postgres
+        image: ghcr.io/open-models-platform/open-models-iecho/oasst-postgres
         state: started
         pull: true
         recreate: "{{ (stack_name == 'dev') | bool }}"
@@ -85,7 +85,7 @@
       community.docker.docker_container:
         name: "oasst-inference-{{ stack_name }}-server"
         image:
-          "ghcr.io/laion-ai/open-assistant/oasst-inference-server:{{ image_tag
+          "ghcr.io/open-models-platform/open-models-iecho/oasst-inference-server:{{ image_tag
           }}"
         state: started
         recreate: true
@@ -112,7 +112,7 @@
             default('1234', true) }}"
           API_ROOT:
             "{{ lookup('ansible.builtin.env', 'INFERENCE_API_ROOT') |
-            default('https://inference.dev.open-assistant.io', true) }}"
+            default('https://inference.dev.open-models-iecho.io', true) }}"
           TRUSTED_CLIENT_KEYS:
             "{{ lookup('ansible.builtin.env', 'INFERENCE_TRUSTED_CLIENT_KEYS') |
             default('', true) }}"

@@ -486,7 +486,7 @@ class Vicuna(Dataset):
             # remove markdown escaping in revision 192ab2185289094fc556ec8ce5ce1e8e587154ca
             # python-markdownify with escape_asterisks & escape_underscores True is used
             # for pre-processing the dataset.
-            # See also https://github.com/LAION-AI/Open-Assistant/issues/2510
+            # See also https://github.com/open-models-platform/open-models-iecho/issues/2510
             message = message.replace(r"\_", "_")
             message = message.replace(r"\*", "*")
             message = re_single_reference_remove.sub("", message)

@@ -10,4 +10,4 @@ ________                          __
 git hash: {{git_hash}}
 debug_mode: {{debug}}
 ```
-https://github.com/LAION-AI/Open-Assistant
+https://github.com/open-models-platform/open-models-iecho

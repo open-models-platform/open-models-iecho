@@ -1,7 +1,7 @@
 V2_ASST_PREFIX = "<|assistant|>"
 V2_PROMPTER_PREFIX = "<|prompter|>"
 
-ASSISTANT_PREFIX = "Open Assistant"
+ASSISTANT_PREFIX = "Open Models iEcho"
 HUMAN_PREFIX = "Human"
 OBSERVATION_SEQ = "Observation:"
 THOUGHT_SEQ = "Thought:"
@@ -16,10 +16,10 @@ TALKING_STYLE = ""
 JSON_FORMAT_NO_PAYLOAD = """{"request": {"params": {query or url parameters}}}"""
 JSON_FORMAT_PAYLOAD = """{"request": {"params": {query or url parameters}, "payload": {...payload}}}"""
 
-PREFIX = f"""Open Assistant is a large language model trained by LAION.
-Open Assistant is designed to be able to assist with a wide range of tasks, from answering simple questions to providing in-depth explanations and discussions on a wide range of topics.
-Open Assistant is constantly learning and improving, and its capabilities are constantly evolving.
-Overall, Open Assistant is a powerful tool that can help with a wide range of tasks and provide valuable insights and information on a wide range of topics.
+PREFIX = f"""Open Models iEcho is a large language model trained by LAION.
+Open Models iEcho is designed to be able to assist with a wide range of tasks, from answering simple questions to providing in-depth explanations and discussions on a wide range of topics.
+Open Models iEcho is constantly learning and improving, and its capabilities are constantly evolving.
+Overall, Open Models iEcho is a powerful tool that can help with a wide range of tasks and provide valuable insights and information on a wide range of topics.
 
 SYSTEM INFORMATION:
 ------------------
@@ -30,7 +30,7 @@ Knowledge date cutoff: {KNOWLEDGE_DATE_CUTOFF}
 TOOLS_PREFIX = """
 TOOLS:
 -----
-Open Assistant has access to the following tools:
+Open Models iEcho has access to the following tools:
 """
 
 INSTRUCTIONS = f"""

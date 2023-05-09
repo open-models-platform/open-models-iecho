@@ -41,9 +41,9 @@ export async function infoInteraction(translation, interaction, lang) {
         value: translation.faq_items.a5,
       }
     )
-    .setURL("https://open-assistant.io/?ref=turing")
+    .setURL("https://open-models-iecho.io/?ref=turing")
     .setFooter({ text: `${getLocaleDisplayName(lang)}` })
-    .setThumbnail("https://open-assistant.io/images/logos/logo.png");
+    .setThumbnail("https://open-models-iecho.io/images/logos/logo.png");
   const row = new ActionRowBuilder().addComponents(
     new ButtonBuilder()
       .setLabel(translation.grab_a_task)

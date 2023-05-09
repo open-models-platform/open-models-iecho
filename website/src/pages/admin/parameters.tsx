@@ -12,7 +12,7 @@ export default function Parameters() {
   return (
     <>
       <Head>
-        <title>Parameters - Open Assistant</title>
+        <title>Parameters - Open Models iEcho</title>
       </Head>
       <AdminArea>
         <Card>

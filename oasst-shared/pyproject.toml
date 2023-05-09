@@ -1,9 +1,9 @@
 [project]
 name = "oasst_shared"
-description = "Open Assistant Shared Module"
+description = "Open Models iEcho Shared Module"
 version = "1.0.0"
 authors = [
-    { name = "LAION-AI", email = "contact@laion.ai" }
+    { name = "open-models-platform", email = "contact@open.models.platform" }
 ]
 dependencies = [
     "pydantic==1.10.4",

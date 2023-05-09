@@ -1,8 +1,8 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/CONTRIBUTING.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/CONTRIBUTING.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
 # I’m in! Now what?
 
-[Join the OpenAssistant Contributors Discord Server!](https://ykilcher.com/open-assistant-discord),
+[Join the OpenAssistant Contributors Discord Server!](https://ykilcher.com/open-models-iecho-discord),
 this is for work coordination.
 
 [Join the LAION Discord Server!](https://discord.com/invite/mVcgxMPD7e), it has
@@ -11,12 +11,12 @@ a dedicated channel and is more public.
 [and / or the YK Discord Server](https://ykilcher.com/discord), also has a
 dedicated, but not as active, channel.
 
-[Visit the Notion](https://ykilcher.com/open-assistant)
+[Visit the Notion](https://ykilcher.com/open-models-iecho)
 
 ### Taking on Tasks
 
 We have a growing task list of
-[issues](https://github.com/LAION-AI/Open-Assistant/issues). Find an issue that
+[issues](https://github.com/open-models-platform/open-models-iecho/issues). Find an issue that
 appeals to you and make a comment that you'd like to work on it. Include in your
 comment a brief description of how you'll solve the problem and if there are any
 open questions you want to discuss. Once a project coordinator has assigned the
@@ -30,38 +30,38 @@ the system architecture, and other documentation.
 
 ### Submitting Work
 
-We're all working on different parts of Open Assistant together. To make
+We're all working on different parts of Open Models iEcho together. To make
 contributions smoothly we recommend the following:
 
-1.  [Fork this project repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+1. [Fork this project repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
     and clone it to your local machine. (Read more
     [About Forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks))
-1.  Before working on any changes, try to
+1. Before working on any changes, try to
     [sync the forked repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
     to keep it up-to-date with the upstream repository.
-1.  On a
+1. On a
     [new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
     in your fork (aka a "feature branch" and not `main`) work on a small focused
     change that only touches on a few files.
-1.  Run `pre-commit` and make sure all files have formatting fixed. This
+1. Run `pre-commit` and make sure all files have formatting fixed. This
     simplifies life for reviewers.
-1.  Package up a small bit of work that solves part of the problem
+1. Package up a small bit of work that solves part of the problem
     [into a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
     and
     [send it out for review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review).
-    [Here](https://github.com/LAION-AI/Open-Assistant/pull/658) is an example PR
+    [Here](https://github.com/open-models-platform/open-models-iecho/pull/658) is an example PR
     for this project to illustrate this flow.
-1.  If you're lucky, we can merge your change into `main` without any problems.
+1. If you're lucky, we can merge your change into `main` without any problems.
     If there are changes to files you're working on, resolve them by:
-    1.  First try to rebase as suggested
+    1. First try to rebase as suggested
         [in these instructions](https://timwise.co.uk/2019/10/14/merge-vs-rebase/#should-you-rebase).
-    1.  If rebasing feels too painful, merge as suggested
+    1. If rebasing feels too painful, merge as suggested
         [in these instructions](https://timwise.co.uk/2019/10/14/merge-vs-rebase/#should-you-merge).
-1.  Once you've resolved conflicts (if any), finish the review and
+1. Once you've resolved conflicts (if any), finish the review and
     [squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits)
     your PR (when squashing try to clean up or update the individual commit
     messages to be one sensible single one).
-1.  Merge in your change and move on to a new issue or the second step of your
+1. Merge in your change and move on to a new issue or the second step of your
     current issue.
 
 Additionally, if someone is working on an issue that interests you, ask if they
@@ -72,16 +72,16 @@ solution until a challenge comes up.
 #### Tips
 
 - At any point you can compare your feature branch to the upstream/main of
-  `LAION-AI/Open-Assistant` by using a URL like this:
-  https://github.com/LAION-AI/Open-Assistant/compare/main...andrewm4894:Open-Assistant:my-example-feature-branch.
+  `open-models-platform/open-models-iecho` by using a URL like this:
+  <https://github.com/open-models-platform/open-models-iecho/compare/main...andrewm4894:open-models-iecho:my-example-feature-branch>.
   Obviously just replace `andrewm4894` with your own GitHub user name and
   `my-example-feature-branch` with whatever you called the feature branch you
   are working on, so something like
-  `https://github.com/LAION-AI/Open-Assistant/compare/main...<your_github_username>:Open-Assistant:<your_branch_name>`.
+  `https://github.com/open-models-platform/open-models-iecho/compare/main...<your_github_username>:open-models-iecho:<your_branch_name>`.
   This will show the changes that would appear in a PR, so you can check this to
   make sure only the files you have changed or added will be part of the PR.
 - Try not to work on the `main` branch in your fork - ideally you can keep this
-  as just an updated copy of `main` from `LAION-AI/Open-Assistant`.
+  as just an updated copy of `main` from `open-models-platform/open-models-iecho`.
 - If your feature branch gets messed up, just update the `main` branch in your
   fork and create a fresh new clean "feature branch" where you can add your
   changes one by one in separate commits or all as a single commit.
@@ -96,7 +96,7 @@ addressed now, or filing an issue to handle it later.
 ## Developer Setup
 
 Work is organized in the
-[project board](https://github.com/orgs/LAION-AI/projects/3).
+[project board](https://github.com/orgs/open-models-platform/projects/3).
 
 **Anything that is in the `Todo` column and not assigned, is up for grabs.
 Meaning we'd be happy for anyone to do these tasks.**
@@ -142,4 +142,4 @@ automatically deploy the built release to the dev machine.
 ### Contribute a Dataset
 
 See
-[here](https://github.com/LAION-AI/Open-Assistant/blob/main/data/datasets/README.md)
+[here](https://github.com/open-models-platform/open-models-iecho/blob/main/data/datasets/README.md)

@@ -1,28 +1,28 @@
 <h1 align="center">
-    <span>Open-Assistant</span>
-  <img width="auto" height="50px" src="https://github.com/LAION-AI/Open-Assistant/blob/main/assets/logo_crop.png"/>
+    <span>open-models-iecho</span>
+  <img width="auto" height="50px" src="https://github.com/open-models-platform/open-models-iecho/blob/main/assets/logo_crop.png"/>
 </h1>
 
 <div align="center">
 
-<a href="https://github.com/LAION-AI/Open-Assistant/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/LAION-AI/Open-Assistant?style=social)</a>
-<a href="https://laion-ai.github.io/Open-Assistant/">![Docs](https://img.shields.io/badge/docs-laion--ai.github.io%2FOpen--Assistant%2F-green)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/build-frontend.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/build-frontend.yaml?label=build-frontend)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/build-postgres.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/build-postgres.yaml?label=build-postgres)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/pre-commit.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/pre-commit.yaml?label=pre-commit)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/test-api-contract.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/test-api-contract.yaml?label=tests-api)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/test-e2e.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/test-e2e.yaml?label=tests-web)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/deploy-docs-site.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/deploy-docs-site.yaml?label=deploy-docs)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/production-deploy.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/production-deploy.yaml?label=deploy-production)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/actions/workflows/release.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/LAION-AI/Open-Assistant/release.yaml?label=deploy-release)</a>
-<a href="https://github.com/LAION-AI/Open-Assistant/releases">![GitHub release (latest by date)](https://img.shields.io/github/v/release/LAION-AI/Open-Assistant)</a>
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/open-models-platform/open-models-iecho?style=social)</a>
+<a href="https://open-models-platform.github.io/open-models-iecho/">![Docs](https://img.shields.io/badge/docs-laion--ai.github.io%2FOpen--Assistant%2F-green)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/build-frontend.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/build-frontend.yaml?label=build-frontend)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/build-postgres.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/build-postgres.yaml?label=build-postgres)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/pre-commit.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/pre-commit.yaml?label=pre-commit)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/test-api-contract.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/test-api-contract.yaml?label=tests-api)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/test-e2e.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/test-e2e.yaml?label=tests-web)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/deploy-docs-site.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/deploy-docs-site.yaml?label=deploy-docs)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/production-deploy.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/production-deploy.yaml?label=deploy-production)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/actions/workflows/release.yaml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/open-models-platform/open-models-iecho/release.yaml?label=deploy-release)</a>
+<a href="https://github.com/open-models-platform/open-models-iecho/releases">![GitHub release (latest by date)](https://img.shields.io/github/v/release/open-models-platform/open-models-iecho)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
 </div>
 
 # Table of Contents
 
-- [What is Open Assistant?](#what-is-open-assistant)
+- [What is Open Models iEcho?](#what-is-open-models-iecho)
 - [Useful Links](#useful-links)
 - [How To Try It Out](#how-to-try-it-out)
 - [The Vision](#the-vision)
@@ -31,40 +31,40 @@
 
 ---
 
-## What is Open Assistant?
+## What is Open Models iEcho?
 
 <p align="center">
-Open Assistant is a project meant to give everyone access to a great chat based
+Open Models iEcho is a project meant to give everyone access to a great chat based
 large language model.
 </p>
 
 We believe that by doing this we will create a revolution in innovation in
 language. In the same way that stable-diffusion helped the world make art and
-images in new ways we hope Open Assistant can help improve the world by
+images in new ways we hope Open Models iEcho can help improve the world by
 improving language itself.
 
 # Useful Links
 
-- [Data Collection](https://open-assistant.io)
+- [Data Collection](https://open-models-iecho.io)
 
-- [Chat](https://open-assistant.io/chat)
+- [Chat](https://open-models-iecho.io/chat)
 
-- [Project Documentation](https://projects.laion.ai/Open-Assistant/)
+- [Project Documentation](https://projects.open.models.platform/open-models-iecho/)
 
 ## How To Try It Out
 
 ### Chatting with the AI
 
-The chat frontend is now live [here](https://open-assistant.io/chat). Log in and
+The chat frontend is now live [here](https://open-models-iecho.io/chat). Log in and
 start chatting! Please try to react with a thumbs up or down for the assistant's
 responses when chatting.
 
 ### Contributing to Data Collection
 
-The data collection frontend is now live [here](https://open-assistant.io/). Log
+The data collection frontend is now live [here](https://open-models-iecho.io/). Log
 in and start taking on tasks! We want to collect a high volume of quality data.
 By submitting, ranking, and labelling model prompts and responses you will be
-directly helping to improve the capabilities of Open Assistant.
+directly helping to improve the capabilities of Open Models iEcho.
 
 ### Running the Development Setup Locally (without chat)
 
@@ -73,11 +73,11 @@ development process. The website link above will take you to the public website
 where you can use the data collection app and the chat.**
 
 If you would like to run the data collection app locally for development, you
-can set up an entire stack needed to run **Open-Assistant**, including the
+can set up an entire stack needed to run **open-models-iecho**, including the
 website, backend, and associated dependent services, with Docker.
 
 To start the demo, run this in the root directory of the repository (check
-[this FAQ](https://projects.laion.ai/Open-Assistant/docs/faq#docker-compose-instead-of-docker-compose)
+[this FAQ](https://projects.open.models.platform/open-models-iecho/docs/faq#docker-compose-instead-of-docker-compose)
 if you have problems):
 
 ```sh
@@ -91,7 +91,7 @@ Then, navigate to `http://localhost:3000` (It may take some time to boot up) and
 interact with the website.
 
 > **Note:** If an issue occurs with the build, please head to the
-> [FAQ](https://projects.laion.ai/Open-Assistant/docs/faq) and check out the
+> [FAQ](https://projects.open.models.platform/open-models-iecho/docs/faq) and check out the
 > entries about Docker.
 
 > **Note:** When logging in via email, navigate to `http://localhost:1080` to

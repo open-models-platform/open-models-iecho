@@ -1,6 +1,6 @@
 # Dataset: Retrieval-based grounded model generated Q-A pairs #2004
 
-Related to [Issue #2004](https://github.com/LAION-AI/Open-Assistant/issues/2004)
+Related to [Issue #2004](https://github.com/open-models-platform/open-models-iecho/issues/2004)
 
 # How it work?
 
@@ -13,9 +13,9 @@ Related to [Issue #2004](https://github.com/LAION-AI/Open-Assistant/issues/2004)
 # Output data
 
 - raw data (BART-based):
-  https://huggingface.co/datasets/michaelthwan/wiki_qa_bart_10000row
+  <https://huggingface.co/datasets/michaelthwan/wiki_qa_bart_10000row>
 - OA format data (BART-based):
-  https://huggingface.co/datasets/michaelthwan/oa_wiki_qa_bart_10000row
+  <https://huggingface.co/datasets/michaelthwan/oa_wiki_qa_bart_10000row>
 
 ### Syntheic data based on BART
 

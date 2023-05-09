@@ -40,7 +40,7 @@ export async function labelInteraction(
   var infoEmbed = new EmbedBuilder()
     .setColor("#3a82f7")
     .setTimestamp()
-    .setThumbnail("https://open-assistant.io/images/logos/logo.png")
+    .setThumbnail("https://open-models-iecho.io/images/logos/logo.png")
     .setFooter({ text: `${getLocaleDisplayName(lang)}` })
     .setTitle(`${translation[formatTaskType(task.type)].label}`)
     .setDescription(`${translation[formatTaskType(task.type)].overview}`);
@@ -53,8 +53,8 @@ export async function labelInteraction(
       .setAuthor({
         iconURL: `${
           username == "User"
-            ? "https://open-assistant.io/images/temp-avatars/av1.jpg"
-            : "https://open-assistant.io/images/logos/logo.png"
+            ? "https://open-models-iecho.io/images/temp-avatars/av1.jpg"
+            : "https://open-models-iecho.io/images/logos/logo.png"
         }`,
         name: username,
       })

@@ -24,7 +24,7 @@ def argument_parsing(notebook=False, notebook_args=None, **kwargs):
     parser = argparse.ArgumentParser()
     parser.add_argument("--configs", nargs="+", required=True)
     parser.add_argument("--local_rank", type=int, default=-1)
-    parser.add_argument("--wandb-entity", type=str, default="open-assistant")
+    parser.add_argument("--wandb-entity", type=str, default="open-models-iecho")
     parser.add_argument("--rng_seed", type=int, help="rng seed")
 
     if notebook:
@@ -142,7 +142,7 @@ def main():
         )
     )
 
-    ## Override first eval prompts just for visualization
+    # Override first eval prompts just for visualization
     eval_prompts = [
         "".join(format_pairs(["Can you tell me about GLaDOS?"], eos_token, add_initial_reply_token=True)),
         "".join(format_pairs(["What is the chemical symbol for gold?"], eos_token, add_initial_reply_token=True)),

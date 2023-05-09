@@ -9,8 +9,8 @@ sexual content.
 
 If you are unsure of the definition of any of the labels, look up their
 definition
-[here](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines#label-explanation).
+[here](https://projects.open.models.platform/open-models-iecho/docs/guides/guidelines#label-explanation).
 
 Please make sure to read the
-[guidelines](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines#classifying-user)
+[guidelines](https://projects.open.models.platform/open-models-iechocho/docs/guides/guidelines#classifying-user)
 before submitting.

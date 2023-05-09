@@ -30,7 +30,7 @@ def send_new_report_message(message: Message, label_text: str, user_id: UUID) ->
             "color": 0xE74C3C,  # Red
             "author": {
                 "name": f"User ID: {user_id}",
-                "url": f"https://open-assistant.io/admin/manage_user/{user_id}",
+                "url": f"https://open-models-iecho.io/admin/manage_user/{user_id}",
             },
         }
         res = requests.post(
@@ -39,7 +39,7 @@ def send_new_report_message(message: Message, label_text: str, user_id: UUID) ->
                 "authorization": f"Bot {settings.DISCORD_API_KEY}",
             },
             json={
-                "content": f"New flagged message https://open-assistant.io/messages/{message.id}",
+                "content": f"New flagged message https://open-models-iecho.io/messages/{message.id}",
                 "embeds": [message_content_embed, label_text_embed],
             },
         )

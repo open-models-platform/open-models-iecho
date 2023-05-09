@@ -15,7 +15,7 @@ size_categories:
 source_datasets:
   - mt_samples
 tags:
-  - open-assistant
+  - open-models-iecho
 task_categories:
   - conversational
 task_ids:
@@ -41,7 +41,7 @@ dataset_info:
 ## Dataset Description
 
 - **Repository:**
-  [Code](https://github.com/LAION-AI/Open-Assistant/data/datasets/mt_note_generation/)
+  [Code](https://github.com/open-models-platform/open-models-iecho/data/datasets/mt_note_generation/)
 
 ## Dataset Summary
 
@@ -86,7 +86,7 @@ text `conversation` feature.
 ## Source data
 
 The script modifies data from mtsamples.csv which is hosted in Kaggle:
-https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions
+<https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions>
 
 ## Citation
 

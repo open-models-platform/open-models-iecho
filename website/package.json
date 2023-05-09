@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "http://projects.laion.ai.github.io/Open-Assistant",
+  "homepage": "http://projects.open.models.platform.github.io/open-models-iecho",
   "version": "0.1.0",
   "private": true,
   "scripts": {

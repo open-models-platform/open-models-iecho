@@ -2,13 +2,13 @@
 title: OpenAssistant Storms YouTube!
 description: OpenAssistant Storms YouTube!
 authors: [andrewm4894]
-tags: [open-assistant, youtube]
+tags: [open-models-iecho, youtube]
 image: ./img/img.png
 ---
 
 import ReactPlayer from "react-player";
 
-![Open Assistant](./img/img.png)
+![Open Models iEcho](./img/img.png)
 
 Following the release of the OpenAssistant dataset, models and chat
 capabilities, YouTube has been on fire (almost as much as our servers) with

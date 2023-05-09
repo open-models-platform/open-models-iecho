@@ -1,6 +1,6 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/backend/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/backend/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
-# Open-Assistant REST Backend
+# open-models-iecho REST Backend
 
 ## Backend Development Setup
 
@@ -10,7 +10,7 @@ In root directory, run
 `docker compose --profile backend-dev up --build --attach-dependencies` to start
 a database. The default settings are already configured to connect to the
 database at `localhost:5432`. (See
-[FAQ](https://projects.laion.ai/Open-Assistant/docs/faq#enable-dockers-buildkit-backend)
+[FAQ](https://projects.open.models.platform/open-models-iecho/docs/faq#enable-dockers-buildkit-backend)
 if you face any docker problems).
 
 > **Note:** when running on MacOS with an M1 chip you have to use:
@@ -39,7 +39,7 @@ Example contents of a `.env` file for the backend:
 
 ```
 DATABASE_URI="postgresql://<username>:<password>@<host>/<database_name>"
-BACKEND_CORS_ORIGINS=["http://localhost", "http://localhost:4200", "http://localhost:3000", "http://localhost:8080", "https://localhost", "https://localhost:4200", "https://localhost:3000", "https://localhost:8080", "http://dev.oasst.laion.ai", "https://stag.oasst.laion.ai", "https://oasst.laion.ai"]
+BACKEND_CORS_ORIGINS=["http://localhost", "http://localhost:4200", "http://localhost:3000", "http://localhost:8080", "https://localhost", "https://localhost:4200", "https://localhost:3000", "https://localhost:8080", "http://dev.oasst.open.models.platform", "https://stag.oasst.open.models.platform", "https://oasst.open.models.platform"]
 REDIS_HOST=localhost
 REDIS_PORT=6379
 ```
@@ -65,7 +65,7 @@ default api docs at `localhost:8080/docs`. If you need to update the exported
 openapi.json in the docs/ folder you can run below command to `wget` them from
 the relevant local fastapi endpoint. This will enable anyone to just see API
 docs via something like
-[Swagger.io](https://editor.swagger.io/?url=https://raw.githubusercontent.com/LAION-AI/Open-Assistant/main/docs/docs/api/openapi.json)
+[Swagger.io](https://editor.swagger.io/?url=https://raw.githubusercontent.com/open-models-platform/open-models-iecho/main/docs/docs/api/openapi.json)
 without having to actually set up and run a development backend.
 
 ```bash

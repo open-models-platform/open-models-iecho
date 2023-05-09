@@ -30,12 +30,12 @@ language:
   - fr
   - it
   - es
-pretty_name: Open-Assistant StackExchange Instruction
+pretty_name: open-models-iecho StackExchange Instruction
 ---
 
 # Stackexchange Instructions for OpenAssistant
 
-This dataset is taken from https://archive.org/details/stackexchange.
+This dataset is taken from <https://archive.org/details/stackexchange>.
 
 There's a single parquet file combining all stackexchange sites. The threads
 have been filtered as follows: only threads with an accepted answer, for which
@@ -50,7 +50,7 @@ Each row consists of
 - SOURCE («stackexchange-ai«)
 - METADATA (tags, question_score, answer_score).
 
-Original extraction code by https://github.com/b-mc2
+Original extraction code by <https://github.com/b-mc2>
 
 ## How to Reproduce this Dataset
 
@@ -276,4 +276,4 @@ Original extraction code by https://github.com/b-mc2
 
 ---
 
-## license: cc-by-sa-4.0 // See https://archive.org/details/stackexchange for details
+## license: cc-by-sa-4.0 // See <https://archive.org/details/stackexchange> for details

@@ -4,7 +4,7 @@ import {
   ButtonStyle,
   ActionRowBuilder,
 } from "discord.js";
-import OpenAssistant from "open-assistant.js";
+import OpenAssistant from "open-models-iecho.js";
 import { getLocaleDisplayName } from "../langs.js";
 import { formatTaskType } from "../tasks.js";
 var oa: OpenAssistant = new OpenAssistant(
@@ -46,7 +46,7 @@ export async function taskInteraction(
   var embed = new EmbedBuilder()
     .setColor("#3a82f7")
     .setTimestamp()
-    .setThumbnail("https://open-assistant.io/images/logos/logo.png")
+    .setThumbnail("https://open-models-iecho.io/images/logos/logo.png")
     .setFooter({ text: `${getLocaleDisplayName(lang)}` })
     .setTitle(`${translation[formatTaskType(task.type)].label}`)
     .setDescription(`${translation[formatTaskType(task.type)].overview}`);
@@ -74,8 +74,8 @@ export async function taskInteraction(
           .setAuthor({
             iconURL: `${
               username == "User"
-                ? "https://open-assistant.io/images/temp-avatars/av1.jpg"
-                : "https://open-assistant.io/images/logos/logo.png"
+                ? "https://open-models-iecho.io/images/temp-avatars/av1.jpg"
+                : "https://open-models-iecho.io/images/logos/logo.png"
             }`,
             name: username,
           })
@@ -103,8 +103,8 @@ export async function taskInteraction(
         .setAuthor({
           iconURL: `${
             username == "User"
-              ? "https://open-assistant.io/images/temp-avatars/av1.jpg"
-              : "https://open-assistant.io/images/logos/logo.png"
+              ? "https://open-models-iecho.io/images/temp-avatars/av1.jpg"
+              : "https://open-models-iecho.io/images/logos/logo.png"
           }`,
           name: username,
         })

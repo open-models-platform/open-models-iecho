@@ -13,8 +13,8 @@ You can find a full list of supported languages and their abbreviations
 [here](https://github.com/jincheng9/markdown_supported_languages#heres-a-full-list-of-supported-languages).
 
 You can find some examples addressing some edge cases
-[here](https://projects.laion.ai/Open-Assistant/docs/guides/examples).
+[here](https://projects.open.models.platform/open-models-iecho/docs/guides/examples).
 
 Please make sure to read the
-[guidelines](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines#assistant-reply)
+[guidelines](https://projects.open.models.platform/open-models-iechocho/docs/guides/guidelines#assistant-reply)
 before submitting.

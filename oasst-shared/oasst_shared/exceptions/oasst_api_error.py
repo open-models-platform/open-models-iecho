@@ -4,7 +4,7 @@ from http import HTTPStatus
 
 class OasstErrorCode(IntEnum):
     """
-    Error codes of the Open-Assistant backend API.
+    Error codes of the open-models-iecho backend API.
 
     Ranges:
          0-1000: general errors
@@ -91,7 +91,7 @@ class OasstErrorCode(IntEnum):
 
 
 class OasstError(Exception):
-    """Base class for Open-Assistant exceptions."""
+    """Base class for open-models-iecho exceptions."""
 
     message: str
     error_code: int

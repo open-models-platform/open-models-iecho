@@ -7,7 +7,7 @@ nvidia runtime if you want to use a GPU. We made a convenience-script you can
 download and run to start the worker:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/LAION-AI/Open-Assistant/main/inference/worker/run_worker_container.sh | bash
+curl -sL https://raw.githubusercontent.com/open-models-platform/open-models-iecho/main/inference/worker/run_worker_container.sh | bash
 ```
 
 This will download the latest version of the worker and start it.
@@ -19,12 +19,12 @@ You can configure the script by setting the following environment variables
 - `CUDA_VISIBLE_DEVICES` (default: `0,1,2,3,4,5,6,7`): Set to the GPU you want
   to use
 - `MODEL_CONFIG_NAME`: Set to the name of the model config you want to use, see
-  [here](https://github.com/LAION-AI/Open-Assistant/blob/main/oasst-shared/oasst_shared/model_configs.py),
+  [here](https://github.com/open-models-platform/open-models-iecho/blob/main/oasst-shared/oasst_shared/model_configs.py),
   for example `OA_SFT_Llama_30Bq`.
 - `API_KEY`: Set to the API key you want to use for the worker
 - `MAX_PARALLEL_REQUESTS` (default: `1`): Set to the maximum number of parallel
   requests the worker should handle. Set this if you know what you're doing.
-- `BACKEND_URL` (default: `wss://inference.prod2.open-assistant.io`): Set to the
+- `BACKEND_URL` (default: `wss://inference.prod2.open-models-iecho.io`): Set to the
   URL of the backend websocket endpoint you want to connect to
 - `LOGURU_LEVEL` (default: `INFO`): Set to the log level you want to use.
 - `OAHF_HOME` (default: `$HOME/.oasst_cache/huggingface`): Set to the directory

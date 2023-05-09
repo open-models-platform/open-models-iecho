@@ -87,9 +87,9 @@ different 500 examples from `prompt_dialogue`.
 
 This works with `torch.distributed`.
 
-## Training only on OA internal data:
+## Training only on OA internal data
 
-To experiment with the Open Assistant data simply run:
+To experiment with the Open Models iEcho data simply run:
 
 ```bash
 python trainer_sft.py --configs oasst_export_eu galactica-125m
@@ -112,7 +112,7 @@ other default options (as given by `defaults_rm`) with the model specific ones.
 ## Training with RL
 
 To train using trlx you first need to install singularity from
-https://github.com/sylabs/singularity/blob/main/INSTALL.md.
+<https://github.com/sylabs/singularity/blob/main/INSTALL.md>.
 
 Assumes access to a server with 8 GPUs.
 

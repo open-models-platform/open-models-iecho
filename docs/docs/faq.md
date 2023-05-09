@@ -2,7 +2,7 @@
 
 > This pages covers specific questions. A more general introduction to the
 > project and its goals can be found
-> [here](https://projects.laion.ai/Open-Assistant/docs/intro).
+> [here](https://projects.open.models.platform/open-models-iecho/docs/intro).
 
 In this page, there are some of the most frequently asked questions.
 
@@ -32,7 +32,7 @@ OpenAssistant Conversations dataset
 </summary>
 
 You can play with our best candidate model
-[here](https://open-assistant.io/chat) and provide thumbs up/down responses to
+[here](https://open-models-iecho.io/chat) and provide thumbs up/down responses to
 help us improve the model in future!
 
 </details>
@@ -40,7 +40,7 @@ help us improve the model in future!
 <details>
 <summary>
 
-### Can I install Open Assistant locally and chat with it?
+### Can I install Open Models iEcho locally and chat with it?
 
 </summary>
 
@@ -64,7 +64,7 @@ there to obtain a full model from these XOR weights.
 
 </summary>
 
-There is no API currently available for Open Assistant. Any mention of an API in
+There is no API currently available for Open Models iEcho. Any mention of an API in
 documentation is referencing the website's internal API. We understand that an
 API is a highly requested feature, but unfortunately, we can't provide one at
 this time due to a couple of reasons. Firstly, the inference system is already
@@ -95,21 +95,21 @@ inference setup and UI locally unless you wish to assist in development.
 <details>
 <summary>
 
-### What license does Open Assistant use?
+### What license does Open Models iEcho use?
 
 </summary>
 
-All Open Assistant code is licensed under Apache 2.0. This means it is available
+All Open Models iEcho code is licensed under Apache 2.0. This means it is available
 for a wide range of uses including commercial use.
 
-The Open Assistant Pythia based models are released as full weights and will be
+The Open Models iEcho Pythia based models are released as full weights and will be
 licensed under the Apache 2.0 license.
 
-The Open Assistant LLaMa based models will be released only as delta weights
+The Open Models iEcho LLaMa based models will be released only as delta weights
 meaning you will need the original LLaMa weights to use them, and the license
 restrictions will therefore be those placed on the LLaMa weights.
 
-The Open Assistant data is released under a Creative Commons license allowing a
+The Open Models iEcho data is released under a Creative Commons license allowing a
 wide range of uses including commercial use.
 
 </details>
@@ -117,13 +117,13 @@ wide range of uses including commercial use.
 <details>
 <summary>
 
-### Who is behind Open Assistant?
+### Who is behind Open Models iEcho?
 
 </summary>
 
-Open Assistant is a project organized by [LAION](https://laion.ai/) and
+Open Models iEcho is a project organized by [LAION](https://open.models.platform/) and
 developed by a team of volunteers worldwide. You can see an incomplete list of
-developers on [our website](https://open-assistant.io/team).
+developers on [our website](https://open-models-iecho.io/team).
 
 The project would not be possible without the many volunteers who have spent
 time contributing both to data collection and to the development process. Thank
@@ -134,7 +134,7 @@ you to everyone who has taken part!
 <details>
 <summary>
 
-### Will Open Assistant be free?
+### Will Open Models iEcho be free?
 
 </summary>
 
@@ -166,12 +166,12 @@ quantisation which can help run the model on smaller hardware.
 </summary>
 
 If you want to help in the data collection for training the model, go to the
-website [https://open-assistant.io/](https://open-assistant.io/).
+website [https://open-models-iecho.io/](https://open-models-iecho.io/).
 
 If you want to contribute code, take a look at the
-[tasks in GitHub](https://github.com/orgs/LAION-AI/projects/3) and comment on an
+[tasks in GitHub](https://github.com/orgs/open-models-platform/projects/3) and comment on an
 issue stating your wish to be assigned. You can also take a look at this
-[contributing guide](https://github.com/LAION-AI/Open-Assistant/blob/main/CONTRIBUTING.md).
+[contributing guide](https://github.com/open-models-platform/open-models-iecho/blob/main/CONTRIBUTING.md).
 
 </details>
 
@@ -195,13 +195,13 @@ well as accelerate, DeepSpeed, bitsandbytes, NLTK, and other libraries.
 <details>
 <summary>
 
-### Can I use ChatGPT to help in training Open Assistant, for instance, by generating answers?
+### Can I use ChatGPT to help in training Open Models iEcho, for instance, by generating answers?
 
 </summary>
 
 No, it is against their terms of service to use it to help train other models.
 See
-[this issue](https://github.com/LAION-AI/Open-Assistant/issues/471#issuecomment-1374392299).
+[this issue](https://github.com/open-models-platform/open-models-iecho/issues/471#issuecomment-1374392299).
 ChatGPT-like answers will be removed.
 
 </details>
@@ -233,7 +233,7 @@ Yes, you should try. If you are not sure, skip the task.
 
 </summary>
 
-In your [account settings](https://open-assistant.io/account).
+In your [account settings](https://open-models-iecho.io/account).
 
 </details>
 
@@ -245,7 +245,7 @@ In your [account settings](https://open-assistant.io/account).
 </summary>
 
 You can see a regularly updated interface at
-[https://open-assistant.io/stats](https://open-assistant.io/stats).
+[https://open-models-iecho.io/stats](https://open-models-iecho.io/stats).
 
 </details>
 
@@ -257,7 +257,7 @@ You can see a regularly updated interface at
 </summary>
 
 Check the
-[guidelines](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines).
+[guidelines](https://projects.open.models.platform/open-models-iechocho/docs/guides/guidelines).
 
 </details>
 
@@ -268,7 +268,7 @@ Check the
 
 </summary>
 
-In the [GitHub issues](https://github.com/LAION-AI/Open-Assistant/issues).
+In the [GitHub issues](https://github.com/open-models-platform/open-models-iecho/issues).
 
 </details>
 
@@ -279,7 +279,7 @@ In the [GitHub issues](https://github.com/LAION-AI/Open-Assistant/issues).
 
 </summary>
 
-We want to ensure that the Open Assistant dataset is as accessible as possible.
+We want to ensure that the Open Models iEcho dataset is as accessible as possible.
 As such, it's necessary to avoid any harmful or offensive content that could be
 grounds for removal on sites such as Hugging Face. Likewise, we want the model
 to be trained to reject as few questions as possible, so it's important to not

@@ -1,5 +1,5 @@
 # @title Emergency Numbers
-# Source : https://github.com/LAION-AI/Open-Instruction-Generalist/blob/main/OIG/src/emergency_numbers.py
+# Source : https://github.com/open-models-platform/Open-Instruction-Generalist/blob/main/OIG/src/emergency_numbers.py
 """
 From:  https://travel.state.gov/content/dam/students-abroad/pdfs/911_ABROAD.pdf
 NOTE:

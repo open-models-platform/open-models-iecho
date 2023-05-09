@@ -7,8 +7,8 @@ const TermsOfServicePage = () => {
   return (
     <>
       <Head>
-        <title>Terms of Service - Open Assistant</title>
-        <meta name="description" content="Open Assistant's Terms of Service" />
+        <title>Terms of Service - Open Models iEcho</title>
+        <meta name="description" content="Open Models iEcho's Terms of Service" />
       </Head>
       <Box p="6" className="oa-basic-theme">
         <Box className="max-w-4xl mx-auto">

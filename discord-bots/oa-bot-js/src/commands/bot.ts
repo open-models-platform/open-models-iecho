@@ -39,8 +39,8 @@ export default {
     var embed = new EmbedBuilder()
       .setColor("#3a82f7")
       .setTimestamp()
-      .setURL("https://open-assistant.io")
-      .setTitle("Open Assistant")
+      .setURL("https://open-models-iecho.io")
+      .setTitle("Open Models iEcho")
       .addFields([
         {
           name: "Ping",
@@ -101,7 +101,7 @@ export default {
         .setStyle(ButtonStyle.Link),
       new ButtonBuilder()
         .setLabel("Github Repo")
-        .setURL("https://github.com/LAION-AI/Open-Assistant")
+        .setURL("https://github.com/open-models-platform/open-models-iecho")
         .setStyle(ButtonStyle.Link)
     );
     await commandType.reply(interaction, {

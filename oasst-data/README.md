@@ -1,16 +1,16 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/oasst-data/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/oasst-data/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
-# Open Assistant Data Module (oasst_data)
+# Open Models iEcho Data Module (oasst_data)
 
 ## Installation of oasst_data
 
 If you got the exception `ModuleNotFoundError: No module named 'oasst_data'` you
 first need to install the `oasst_data` package:
 
-Run `pip install -e .` in the `oasst-data/` directory of the Open-Assistant
+Run `pip install -e .` in the `oasst-data/` directory of the open-models-iechocho
 repository to install the `oasst_data` python package in editable mode.
 
-## Reading Open-Assistant Export Files
+## Reading open-models-iechocho Export Files
 
 Reading jsonl files is in general very simple in Python. To further simplify the
 process for OA data the `oasst_data` module comes with Pydantic class
@@ -36,8 +36,8 @@ for tree in read_message_trees(input_file_path):
 
 A more comprehensive example of loading all conversation threads ending in
 assistant replies can be found in the file
-[oasst_dataset.py](https://github.com/LAION-AI/Open-Assistant/blob/main/model/model_training/custom_datasets/oasst_dataset.py)
-which is used to load Open-Assistant export data for supervised fine-tuning
+[oasst_dataset.py](https://github.com/open-models-platform/open-models-iecho/blob/main/model/model_training/custom_datasets/oasst_dataset.py)
+which is used to load open-models-iechocho export data for supervised fine-tuning
 (training) of our language models.
 
 You can also load jsonl data completely without dependencies to `oasst_data`
@@ -63,9 +63,9 @@ with file_in:
         # manual parsing of data now goes here ...
 ```
 
-## Open-Assistant JSON Lines Export Data Format
+## open-models-iechocho JSON Lines Export Data Format
 
-Open-Assistant export data is written as standard
+open-models-iechocho export data is written as standard
 [JSON Lines data](https://jsonlines.org/). The generated files are UTF-8 encoded
 text files with single JSON objects in each line. The files come either
 uncompressed with the ending `.jsonl` or compressed with the ending `.jsonl.gz`.
@@ -83,7 +83,7 @@ data file.
 ### 1. Individual Messages
 
 Message objects can be identified by the presence of a `"message_id"` property.
-In files written by Open-Assistant this property will appear as the first
+In files written by open-models-iechocho this property will appear as the first
 property on the line directly after the opening curly brace.
 
 Each message needs at least an id (UUID), message text, a role (either
@@ -135,7 +135,7 @@ Example of a message with more properties:
 ```
 
 The backend export tool
-([export.py](https://github.com/LAION-AI/Open-Assistant/blob/main/backend/export.py))
+([export.py](https://github.com/open-models-platform/open-models-iecho/blob/main/backend/export.py))
 will generate jsonl files with individual messages when a set of messages is
 exported that is not a full tree. This is for example the case when filtering
 messages based on properties like user, deleted, spam or synthetic. Spam
@@ -278,5 +278,5 @@ message example.
 ```
 
 This format is used when whole trees are exported with
-[export.py](https://github.com/LAION-AI/Open-Assistant/blob/main/backend/export.py)
+[export.py](https://github.com/open-models-platform/open-models-iecho/blob/main/backend/export.py)
 (for example all trees in `ready_to_export` state).

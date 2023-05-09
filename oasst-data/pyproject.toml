@@ -1,9 +1,9 @@
 [project]
 name = "oasst_data"
-description = "Open Assistant Data Module"
+description = "Open Models iEcho Data Module"
 version = "1.0.0"
 authors = [
-    { name = "LAION-AI", email = "contact@laion.ai" }
+    { name = "open-models-platform", email = "contact@open.models.platform" }
 ]
 dependencies = [
     "pydantic>=1.10.4",

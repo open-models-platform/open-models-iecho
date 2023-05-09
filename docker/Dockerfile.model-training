@@ -15,21 +15,21 @@ RUN source venv/bin/activate && \
 
 # clone OA repo & install dependencies
 RUN apt install -y python3.10-dev && \
-    git clone https://github.com/LAION-AI/Open-Assistant.git && \
+    git clone https://github.com/open-models-platform/open-models-iecho.git && \
     source venv/bin/activate && \
-    pip install -e /workspace/Open-Assistant/oasst-data \
-    pip install -e /workspace/Open-Assistant/model
+    pip install -e /workspace/open-models-iecho/oasst-data \
+    pip install -e /workspace/open-models-iecho/model
 
 ENV PATH=/workspace/venv/bin:$PATH
 
-WORKDIR /workspace/Open-Assistant/model/model_training
+WORKDIR /workspace/open-models-iecho/model/model_training
 
 CMD ["/bin/bash"]
 
-# In the ./Open-Assistant repository root folder:
+# In the ./open-models-iecho repository root folder:
 
 # ... build the container:
 # nvidia-docker build -f docker/Dockerfile.model-training . -t oasst-model-training
 
 # ... run with the OA repository mounted:
-# nvidia-docker run -v `pwd`:/workspace/Open-Assistant -it --rm --env CUDA_VISIBLE_DEVICES=0 oasst-model-training
+# nvidia-docker run -v `pwd`:/workspace/open-models-iecho -it --rm --env CUDA_VISIBLE_DEVICES=0 oasst-model-training

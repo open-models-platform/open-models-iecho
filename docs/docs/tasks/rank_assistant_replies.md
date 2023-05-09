@@ -17,5 +17,5 @@ just sort the best and worst assistant reply, but compare each reply to settle
 on a ranking.
 
 Please make sure to read the
-[guidelines](https://projects.laion.ai/Open-Assistant/docs/guides/guidelines#ranking-assistant)
+[guidelines](https://projects.open.models.platform/open-models-iecho/docs/guides/guidelines#ranking-assistant)
 before submitting.

@@ -53,7 +53,7 @@ export function UserMenu() {
     },
     {
       name: t("report_a_bug"),
-      href: "https://github.com/LAION-AI/Open-Assistant/issues/new/choose",
+      href: "https://github.com/open-models-platform/open-models-iecho/issues/new/choose",
       icon: AlertTriangle,
       isExternal: true,
     },

@@ -1,4 +1,4 @@
-**Open-Assistant Bot Help**
+**open-models-iecho Bot Help**
 
 Available slash-commands:
 

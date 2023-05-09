@@ -1,5 +1,5 @@
 # @title Child Helplines
-# Source : https://github.com/LAION-AI/Open-Instruction-Generalist/blob/main/OIG/src/child_help.py
+# Source : https://github.com/open-models-platform/Open-Instruction-Generalist/blob/main/OIG/src/child_help.py
 """
 From https://childhelplineinternational.org/helplines/
 NOTE:

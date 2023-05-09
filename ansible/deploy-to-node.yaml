@@ -62,7 +62,7 @@
     - name: Create postgres containers
       community.docker.docker_container:
         name: "oasst-{{ stack_name }}-postgres-{{ item.name }}"
-        image: ghcr.io/laion-ai/open-assistant/oasst-postgres
+        image: ghcr.io/open-models-platform/open-models-iecho/oasst-postgres
         state: started
         pull: true
         recreate: "{{ (stack_name == 'dev') | bool }}"
@@ -96,7 +96,7 @@
     - name: Run the oasst oasst-backend
       community.docker.docker_container:
         name: "oasst-{{ stack_name }}-backend"
-        image: "ghcr.io/laion-ai/open-assistant/oasst-backend:{{ image_tag }}"
+        image: "ghcr.io/open-models-platform/open-models-iecho/oasst-backend:{{ image_tag }}"
         state: started
         recreate: true
         pull: true
@@ -189,7 +189,7 @@
     - name: Run the oasst oasst-web frontend
       community.docker.docker_container:
         name: "oasst-{{ stack_name }}-web"
-        image: "ghcr.io/laion-ai/open-assistant/oasst-web:{{ image_tag }}"
+        image: "ghcr.io/open-models-platform/open-models-iecho/oasst-web:{{ image_tag }}"
         state: started
         recreate: true
         pull: true
@@ -211,7 +211,7 @@
             "{{ lookup('ansible.builtin.env', 'WEB_GOOGLE_CLIENT_ID') }}"
           GOOGLE_CLIENT_SECRET:
             "{{ lookup('ansible.builtin.env', 'WEB_GOOGLE_CLIENT_SECRET') }}"
-          EMAIL_FROM: open-assistant@laion.ai
+          EMAIL_FROM: open-models-iecho@open.models.platform
           EMAIL_SERVER_HOST:
             "{{ lookup('ansible.builtin.env', 'WEB_EMAIL_SERVER_HOST') }}"
           EMAIL_SERVER_PASSWORD:
@@ -225,8 +225,8 @@
           NEXTAUTH_SECRET:
             "{{ lookup('ansible.builtin.env', 'WEB_NEXTAUTH_SECRET') }}"
           NEXTAUTH_URL:
-            "{{ 'https://open-assistant.io/' if stack_name == 'production' else
-            ('https://web.' + stack_name + '.open-assistant.io/') }}"
+            "{{ 'https://open-models-iecho.io/' if stack_name == 'production' else
+            ('https://web.' + stack_name + '.open-models-iecho.io/') }}"
           CLOUDFLARE_CAPTCHA_SITE_KEY:
             "{{ lookup('ansible.builtin.env',
             'WEB_NEXT_PUBLIC_CLOUDFLARE_CAPTCHA_SITE_KEY') }}"

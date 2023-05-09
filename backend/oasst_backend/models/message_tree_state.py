@@ -9,7 +9,7 @@ from sqlmodel import Field, Index, SQLModel
 
 
 class State(str, Enum):
-    """States of the Open-Assistant message tree state machine."""
+    """States of the open-models-iecho message tree state machine."""
 
     INITIAL_PROMPT_REVIEW = "initial_prompt_review"
     """In this state the message tree consists only of a single initial prompt root node.
@@ -34,7 +34,7 @@ class State(str, Enum):
 
     READY_FOR_EXPORT = "ready_for_export"
     """The Scoring algorithm computed rankings scores for all children. The message tree can be
-    exported as part of an Open-Assistant message tree dataset."""
+    exported as part of an open-models-iecho message tree dataset."""
 
     SCORING_FAILED = "scoring_failed"
     """An exception occurred in the scoring algorithm."""

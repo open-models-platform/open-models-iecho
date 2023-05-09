@@ -14,10 +14,10 @@ export async function langInteraction(interaction) {
   });
   var embed = new EmbedBuilder()
     .setColor("#3a82f7")
-    .setThumbnail("https://open-assistant.io/images/logos/logo.png")
+    .setThumbnail("https://open-models-iecho.io/images/logos/logo.png")
     .setTitle("Select the lang.")
     .setDescription(
-      `By selecting a language you accept our [tos](https://open-assistant.io/terms-of-service)`
+      `By selecting a language you accept our [tos](https://open-models-iecho.io/terms-of-service)`
     );
   //   .setTimestamp();
   const row = new ActionRowBuilder().addComponents(

@@ -167,7 +167,7 @@
     "you": {
       "name": "You!",
       "title": "It wouldn't have happened without you, thanks!",
-      "githubURL": "https://github.com/LAION-AI/Open-Assistant",
+      "githubURL": "https://github.com/open-models-platform/open-models-iecho",
       "imageURL": "https://avatars.githubusercontent.com/u/92627801?v=4"
     },
     "wandb": {

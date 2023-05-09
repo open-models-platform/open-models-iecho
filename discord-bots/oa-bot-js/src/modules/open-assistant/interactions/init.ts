@@ -13,8 +13,8 @@ export async function initInteraction(interaction, translation, lang) {
     .setFooter({ text: `${getLocaleDisplayName(lang)}` })
     .setTitle("Open assistant")
     .setDescription(`${translation["conversational"]}`)
-    .setURL("https://open-assistant.io/?ref=discordbot")
-    .setThumbnail("https://open-assistant.io/images/logos/logo.png");
+    .setURL("https://open-models-iecho.io/?ref=discordbot")
+    .setThumbnail("https://open-models-iecho.io/images/logos/logo.png");
 
   const row = new ActionRowBuilder().addComponents(
     new ButtonBuilder()

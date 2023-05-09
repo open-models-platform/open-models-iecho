@@ -15,7 +15,7 @@ size_categories:
 source_datasets:
   - extended|allenai/soda
 tags:
-  - open-assistant
+  - open-models-iecho
   - conversations-summarization
 task_categories:
   - conversational
@@ -45,7 +45,7 @@ dataset_info:
 ## Dataset Description
 
 - **Repository:**
-  [Code](https://github.com/LAION-AI/Open-Assistant/data/datasets/soda_synthetic_dialogue/)
+  [Code](https://github.com/open-models-platform/open-models-iecho/data/datasets/soda_synthetic_dialogue/)
 
 ## Dataset Summary
 

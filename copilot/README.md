@@ -1,4 +1,4 @@
-<a href="https://github-com.translate.goog/LAION-AI/Open-Assistant/blob/main/copilot/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
+<a href="https://github-com.translate.goog/open-models-platform/open-models-iecho/blob/main/copilot/README.md?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">![Translate](https://img.shields.io/badge/Translate-blue)</a>
 
 # Deploying on AWS
 
@@ -7,7 +7,7 @@
 [Copilot](https://aws.github.io/copilot-cli/) helps simplify AWS resources and
 automate deployments for projects.
 
-This sample configuration runs the Open Assistant web app as an ECS Fargate
+This sample configuration runs the Open Models iEcho web app as an ECS Fargate
 services backed by a Serverless Aurora Postgres database.
 
 ## To Setup
@@ -81,10 +81,10 @@ First, make sure the database is updated with any schema changes:
 
 ```sh
 copilot task run \
-    --app open-assistant --env staging \
+    --app open-models-iecho --env staging \
     -n prisma-push \
     --dockerfile docker/Dockerfile.prisma --build-context "./" \
-    --secrets DATABASE_URL=/copilot/open-assistant/staging/secrets/DATABASE_URL
+    --secrets DATABASE_URL=/copilot/open-models-iecho/staging/secrets/DATABASE_URL
 ```
 
 Next, deploy everything:

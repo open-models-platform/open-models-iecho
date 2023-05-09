@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Simple script to convert StackExchange XML to Open Assistant format
+# Simple script to convert StackExchange XML to Open Models iEcho format
 # Original code by https://github.com/b-mc2
 
 import gc
@@ -100,7 +100,7 @@ def parse_row(element):
 
 def convert_to_oa(all, source):
     """
-    Convert dataframe to Open Assistant format with INSTRUCTION, RESPONSE, SOURCE, METADATA columns
+    Convert dataframe to Open Models iEcho format with INSTRUCTION, RESPONSE, SOURCE, METADATA columns
 
     Only include questions with an AcceptedAnswerId
     """
@@ -139,7 +139,7 @@ def create_metadata(row):
 def save_parquet(df, dataset):
     """
     Save Dataframe to Parquet. See here for specs:
-    https://projects.laion.ai/Open-Assistant/docs/data/datasets#creating-a-dataset-on-hugging-face
+    https://projects.open.models.platform/open-models-iecho/docs/data/datasets#creating-a-dataset-on-hugging-face
     """
     os.makedirs("parquet", exist_ok=True)
     parquet_file = PARQUET_FILE.format(dataset)

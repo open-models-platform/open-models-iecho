@@ -3,15 +3,15 @@
 StackExchange Builder is a notebook that downloads data from StackExchange data
 dumps and converts it into different formats. It will parse the XML files, group
 questions and answers, can filter the dataset and puts the results into the
-Open-Assistant Data Scheme. Files can be saved to either JSON, JSONL, Parquet,
+open-models-iecho Data Scheme. Files can be saved to either JSON, JSONL, Parquet,
 or CSV.
 
 ---
 
-#### Sample Data Open-Assistant Data Scheme:
+#### Sample Data open-models-iecho Data Scheme
 
-Open-Assistant Data Scheme as outlined here:
-https://github.com/LAION-AI/Open-Assistant/blob/main/docs/data_schemas.md
+open-models-iecho Data Scheme as outlined here:
+<https://github.com/open-models-platform/open-models-iecho/blob/main/docs/data_schemas.md>
 
 ```
 {

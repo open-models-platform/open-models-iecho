@@ -1,4 +1,4 @@
-# Twitter data collection for Open Assistant
+# Twitter data collection for Open Models iEcho
 
 Conversations on Twitter can be an interesting and useful source of data for our
 model to learn from. Certain twitter threads may contain helpful prompts and
@@ -14,7 +14,7 @@ conversation, or at least as a prompt with replies.
 
 ## Possible Data Paths
 
-- Twitterstream archive: https://archive.org/details/twitterstream These are
+- Twitterstream archive: <https://archive.org/details/twitterstream> These are
   large .tar files with compressed json files inside. However, some data points
   such as reply counts seem to always be 0 due to limitations when scraping the
   Twitter API.

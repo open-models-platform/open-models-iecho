@@ -1,5 +1,5 @@
 import { EmbedBuilder } from "discord.js";
-import OpenAssistant from "open-assistant.js";
+import OpenAssistant from "open-models-iecho.js";
 var oa: OpenAssistant = new OpenAssistant(
   process.env.OA_APIKEY,
   process.env.OA_APIURL
@@ -73,7 +73,7 @@ export async function submitTask(
           : "Task failed"
       }(loading new task...)`
     )
-    .setURL("https://open-assistant.io/?ref=turing")
+    .setURL("https://open-models-iecho.io/?ref=turing")
     .setFooter({ text: `${getLocaleDisplayName(lang)}` });
   await interaction.editReply({
     embeds: [successEmbed],

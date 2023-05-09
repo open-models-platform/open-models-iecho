@@ -2,12 +2,12 @@
 
 ## Dataset Description
 
-This dataset is prepared to train Open Assistant with Chinese most popular
+This dataset is prepared to train Open Models iEcho with Chinese most popular
 Question Answering website [Zhihu](https://www.zhihu.com/). So far, only the QA
 from KOL (Key Opinion Leader) are recorded and prepared. Later on, we will
 expand to other general topics.
 
-### Example:
+### Example
 
 ```
 Q: ChatGPT 这个项目会开源吗？
@@ -18,13 +18,13 @@ A: 当我找到一个tf的代码，我的第一反应就是这货大概率跑不
 
 ```
 
-### Source data:
+### Source data
 
 The source of QA is from some KOL found on Zhihu website. So far there is no
 rule determining who should be included and who should not. We plan to gradually
 bring in more KOLs into this dataset.
 
-### How to download data and upload it to Huggingface:
+### How to download data and upload it to Huggingface
 
 ### Install requirements
 

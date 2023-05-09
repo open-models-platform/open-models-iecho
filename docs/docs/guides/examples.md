@@ -4,7 +4,7 @@ Here are a number of examples of potential conversations. You can use them to
 better understand how to apply the guidelines.
 
 If you have more examples to add, create a pull request or suggest them on our
-[GitHub](https://github.com/LAION-AI/Open-Assistant).
+[GitHub](https://github.com/open-models-platform/open-models-iecho).
 
 ### Dealing with inappropriate prompts
 

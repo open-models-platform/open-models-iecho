@@ -8,8 +8,8 @@ const AllTasks = () => {
   return (
     <>
       <Head>
-        <title>All Tasks - Open Assistant</title>
-        <meta name="description" content="All tasks for Open Assistant." />
+        <title>All Tasks - Open Models iEcho</title>
+        <meta name="description" content="All tasks for Open Models iEcho." />
       </Head>
       <TaskOption content={allTaskOptions} />
     </>

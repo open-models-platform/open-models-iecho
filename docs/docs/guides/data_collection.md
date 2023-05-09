@@ -55,7 +55,7 @@ relevant and from reputable websites. However, this is **not** required.
 
 Largely the criteria for "quality" can be derived by how well the prompt follows
 the guidance
-[above](https://github.com/LAION-AI/Open-Assistant/blob/main/docs/docs/guides#writing-prompts-initial-prompts-or-prompter-replies).
+[above](https://github.com/open-models-platform/open-models-iecho/blob/main/docs/docs/guides#writing-prompts-initial-prompts-or-prompter-replies).
 The other labels are largely self-explanatory.
 
 Spam should be reserved for intentionally low effort or low quality prompts.
@@ -71,7 +71,7 @@ classification is a crucial task, serving as community moderation.
 
 Largely the criteria for "quality" can be derived by how well the prompt follows
 the guidance
-[above](https://github.com/LAION-AI/Open-Assistant/blob/main/docs/docs/guides#writing-answers-assistant-replies).
+[above](https://github.com/open-models-platform/open-models-iecho/blob/main/docs/docs/guides#writing-answers-assistant-replies).
 The other labels are largely self-explanatory.
 
 Spam should be reserved for intentionally low effort or low quality answers.

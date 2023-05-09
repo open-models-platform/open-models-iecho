@@ -28,7 +28,7 @@ environments:
   staging:
     variables:
       # Note: this has to be a valid JSON list for Pydantic to parse it.
-      BACKEND_CORS_ORIGINS: '["https://web.staging.open-assistant.surfacedata.org"]'
+      BACKEND_CORS_ORIGINS: '["https://web.staging.open-models-iecho.surfacedata.org"]'
       MAX_WORKERS: 1
 
 secrets:

@@ -1,13 +1,13 @@
-# Introduction to Open Assistant for developers
+# Introduction to Open Models iEcho for developers
 
 This is a guide to understand the goals, tools, technologies and teams behind
-[Open Assistant](https://open-assistant.io/), a project that tries to be the
+[Open Models iEcho](https://open-models-iecho.io/), a project that tries to be the
 community-driven open source alternative to ChatGPT. It is intended for
 developers that want to contribute to the project. See the
-[contributing guide](https://github.com/LAION-AI/Open-Assistant/blob/main/CONTRIBUTING.md)
+[contributing guide](https://github.com/open-models-platform/open-models-iecho/blob/main/CONTRIBUTING.md)
 for detailed instructions on how to contribute.
 
-## Overview of the Open Assistant project
+## Overview of the Open Models iEcho project
 
 The main goal of the project is to have a chatbot that can answer questions,
 adapting a **Large Language Model (LLM)** to better follow instructions. For
@@ -55,7 +55,7 @@ basically consists in three steps (see the figure below):
 With all this we have a RL model that can be used to create an assistant. The
 process of answering prompts with this RL model is called **"the inference"**.
 
-The whole Open Assistant approach is summarized in this figure:
+The whole Open Models iEcho approach is summarized in this figure:
 
 ```mermaid
 flowchart TD
@@ -73,7 +73,7 @@ flowchart TD
     SFT --> RL("RL training <br> (Reinforcement Learning with PPO)") --> RLModel((RL model)):::model
     RM --> RL
 
-    RLModel --> OA("Inference <br> (Open Assistant)")
+    RLModel --> OA("Inference <br> (Open Models iEcho)")
     P2[Prompt] --> OA --> A2[Answer]
 ```
 
@@ -114,13 +114,13 @@ Typescript, HTML, CSS and node.js. Some libraries it uses are
 [Chakra UI](https://chakra-ui.com/) for the UI elements and
 [i18-next](https://www.i18next.com/) for the internationalization. Its source
 code is in the
-[website directory](https://github.com/LAION-AI/Open-Assistant/tree/main/website).
+[website directory](https://github.com/open-models-platform/open-models-iecho/tree/main/website).
 The
-[README in that directory](https://github.com/LAION-AI/Open-Assistant/blob/main/website/README.md)
+[README in that directory](https://github.com/open-models-platform/open-models-iecho/blob/main/website/README.md)
 has more information about the frontend.
 
 The container in the
-[dockerfile](https://github.com/LAION-AI/Open-Assistant/blob/main/docker-compose.yaml)
+[dockerfile](https://github.com/open-models-platform/open-models-iecho/blob/main/docker-compose.yaml)
 is called `web` with a comment that refers to it as the "oassist web service".
 The node.js server is "the backend of the frontend", not to be confused with the
 "FastAPI backend" that will be discussed later.
@@ -139,7 +139,7 @@ users pre-created and this is not required. There is a fake user called `dev`
 and it can be assigned a role during log in.
 
 There are other scripts related to the frontend in the directory
-[scripts/frontend-development](https://github.com/LAION-AI/Open-Assistant/tree/main/scripts/frontend-development).
+[scripts/frontend-development](https://github.com/open-models-platform/open-models-iecho/tree/main/scripts/frontend-development).
 
 Another included tool that can be interesting during development is
 [storybook](https://storybook.js.org/): it allows you to test UI components
@@ -148,7 +148,7 @@ without having to run the whole application.
 ### The Discord bots
 
 These are the Discord bots mentioned above. Their source code is in the
-[discord-bots](https://github.com/LAION-AI/Open-Assistant/tree/main/discord-bots)
+[discord-bots](https://github.com/open-models-platform/open-models-iecho/tree/main/discord-bots)
 directory.
 
 ### The FastAPI backend
@@ -156,7 +156,7 @@ directory.
 This provides an API that's used by the web frontend and the Discord bots to
 store conversation trees and their metadata. It's written in Python using
 FastAPI as framework and its source code is in the
-[backend directory](https://github.com/LAION-AI/Open-Assistant/tree/main/backend).
+[backend directory](https://github.com/open-models-platform/open-models-iecho/tree/main/backend).
 It's called `backend` in the Dockerfile.
 
 It has another Postgres database, the "backend database", called just `db` in
@@ -171,7 +171,7 @@ databases, and `redis-insights` to inspect the Redis database.
 
 Although there's some data already in the Postgres backend database, more can be
 generated using the automation script called
-[auto_main.py](https://github.com/LAION-AI/Open-Assistant/blob/main/text-frontend/auto_main.py).
+[auto_main.py](https://github.com/open-models-platform/open-models-iecho/blob/main/text-frontend/auto_main.py).
 
 There's
 [a presentation](https://docs.google.com/presentation/d/1iaX_nxasVWlvPiSNs0cllR9L_1neZq0RJxd6MFEalUY/edit#slide=id.g1c26e0a54b8_0_948)
@@ -182,7 +182,7 @@ conversation tree and the work package.
 
 The inference service is the component that answers prompts using a model, i.e.,
 it is the assistant itself. It's written in Python and its source code is in the
-[inference](https://github.com/LAION-AI/Open-Assistant/tree/main/inference)
+[inference](https://github.com/open-models-platform/open-models-iecho/tree/main/inference)
 directory. It has a server and several workers. It also has its own Postgres
 database in a container called `inference-db` in the Dockerfile, and a Redis
 database in the `redis-inference` container. There's another container for
@@ -194,34 +194,34 @@ workers, which are the ones that use the model to carry out the inference.
 ### Model training tools
 
 The tools to train the different models are in the
-[model](https://github.com/LAION-AI/Open-Assistant/tree/main/model) directory.
+[model](https://github.com/open-models-platform/open-models-iecho/tree/main/model) directory.
 They are scripts written in Python that use libraries such as PyTorch and
 Transformers from Hugging Face.
 
 ### The instruction dataset scripts and notebooks
 
 The collection of the instruction datasets is organized in the
-[data](https://github.com/LAION-AI/Open-Assistant/tree/main/data) directory.
-[This guide](https://github.com/LAION-AI/Open-Assistant/blob/main/data/datasets/README.md)
+[data](https://github.com/open-models-platform/open-models-iecho/tree/main/data) directory.
+[This guide](https://github.com/open-models-platform/open-models-iecho/blob/main/data/datasets/README.md)
 explains how to contribute a new dataset.
 
 There's also a
-[notebooks](https://github.com/LAION-AI/Open-Assistant/tree/main/notebooks)
+[notebooks](https://github.com/open-models-platform/open-models-iecho/tree/main/notebooks)
 directory with different notebooks for data scraping and augmentation, but it's
 being deprecated in favor of the directory
-[data/datasets](https://github.com/LAION-AI/Open-Assistant/blob/main/data/datasets).
+[data/datasets](https://github.com/open-models-platform/open-models-iecho/blob/main/data/datasets).
 
 ### The docs
 
 The documentation is in the
-[docs](https://github.com/LAION-AI/Open-Assistant/tree/main/docs) directory.
+[docs](https://github.com/open-models-platform/open-models-iecho/tree/main/docs) directory.
 It's written in Markdown and it uses Docosaurus 2 as the static site generator.
 
 ### The deployment
 
 The deployment is done with containers, using V2 of `docker compose` (not to be
 confused with `docker-compose`, with hyphen, see this
-[FAQ](https://projects.laion.ai/Open-Assistant/docs/faq#docker-compose-instead-of-docker-compose)).
+[FAQ](https://projects.open.models.platform/open-models-iecho/docs/faq#docker-compose-instead-of-docker-compose)).
 It is based on profiles. These are the ones that are currently available:
 
 - `frontend-dev`. It includes these containers:
@@ -305,12 +305,12 @@ flowchart TD
 ```
 
 There are ansible playbooks in the
-[ansible](https://github.com/LAION-AI/Open-Assistant/tree/main/ansible)
+[ansible](https://github.com/open-models-platform/open-models-iecho/tree/main/ansible)
 directory.
 
 In addition to the production deployment, available at the project website,
-<https://open-assistant.io/>, there's also a staging deployment at
-<https://web.staging.open-assistant.io/>.
+<https://open-models-iecho.io/>, there's also a staging deployment at
+<https://web.staging.open-models-iecho.io/>.
 
 ## The teams
 
@@ -319,14 +319,14 @@ The major contributors, founders and initiators are Yannic Kilcher
 [YouTube channel](https://www.youtube.com/@YannicKilcher) with a large
 community, [Andreas Köpf](https://github.com/andreaskoepf), who is the Tech
 Lead, [Christoph Schumann](https://github.com/christophschuhmann), who is the
-Organizational Lead and a founder of [LAION](https://laion.ai/), and Huu Nguyen,
+Organizational Lead and a founder of [LAION](https://open.models.platform/), and Huu Nguyen,
 from [Ontocord](https://github.com/ontocord).
 
-There's a [Teams page](https://open-assistant.io/team) and a
-[CODEOWNERS](https://github.com/LAION-AI/Open-Assistant/blob/main/CODEOWNERS)
+There's a [Teams page](https://open-models-iecho.io/team) and a
+[CODEOWNERS](https://github.com/open-models-platform/open-models-iecho/blob/main/CODEOWNERS)
 file that lists the code owners of different parts of the project. However,
 there are many
-[other contributors](https://github.com/LAION-AI/Open-Assistant/graphs/contributors),
+[other contributors](https://github.com/open-models-platform/open-models-iecho/graphs/contributors),
 organized in teams, which use
-[the Discord server](https://ykilcher.com/open-assistant-discord) for
+[the Discord server](https://ykilcher.com/open-models-iecho-discord) for
 coordination.

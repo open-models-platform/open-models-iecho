@@ -85,8 +85,8 @@ function Signin({ providers }: SigninProps) {
   return (
     <>
       <Head>
-        <title>Sign Up - Open Assistant</title>
-        <meta name="Sign Up" content="Sign up to access Open Assistant" />
+        <title>Sign Up - Open Models iEcho</title>
+        <meta name="Sign Up" content="Sign up to access Open Models iEcho" />
       </Head>
       <AuthLayout>
         <Stack spacing="2">

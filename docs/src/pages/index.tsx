@@ -19,7 +19,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Open Assistant Introduction
+            Open Models iEcho Introduction
           </Link>
         </div>
       </div>
