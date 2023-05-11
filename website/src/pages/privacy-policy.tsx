@@ -63,7 +63,7 @@ const PrivacyPolicy = () => {
     {
       number: "2",
       title: "Responsible Controller",
-      desc: "Responsible controller is: LAION e.V., Herman-Lange-Weg 26, 21035 Hamburg, Germany",
+      desc: "Responsible controller is: Open Models e.V., Herman-Lange-Weg 26, 21035 Hamburg, Germany",
       sections: [],
     },
     {

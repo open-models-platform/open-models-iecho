@@ -1,12 +1,12 @@
 {
   "blurb": "We believe we can create a revolution.",
   "blurb1": "In the same way that Stable Diffusion helped the world make art and images in new ways, we want to improve the world by providing amazing conversational AI.",
-  "description": "Conversational AI for everyone. An open source project to create a chat enabled GPT LLM run by LAION and contributors around the world.",
+  "description": "Conversational AI for everyone. An open source project to create a chat enabled GPT LLM run by Open Models and contributors around the world.",
   "faq_items": {
     "q0": "How far along is this project?",
     "a0": "We are in the early stages of development, working from established research in applying RLHF to large language models.",
     "q1": "Who is behind Open Models iEcho?",
-    "a1": "Open Models iEcho is a project organized by LAION and individuals around the world interested in bringing this technology to everyone.",
+    "a1": "Open Models iEcho is a project organized by Open Models and individuals around the world interested in bringing this technology to everyone.",
     "q2": "What license does Open Models iEcho use?",
     "a2": "The code and models are licensed under the Apache 2.0 license.",
     "q3": "Will the training data also be released?",

@@ -5,7 +5,7 @@
 [Join the OpenAssistant Contributors Discord Server!](https://ykilcher.com/open-models-iecho-discord),
 this is for work coordination.
 
-[Join the LAION Discord Server!](https://discord.com/invite/mVcgxMPD7e), it has
+[Join the Open Models Discord Server!](https://discord.com/invite/mVcgxMPD7e), it has
 a dedicated channel and is more public.
 
 [and / or the YK Discord Server](https://ykilcher.com/discord), also has a

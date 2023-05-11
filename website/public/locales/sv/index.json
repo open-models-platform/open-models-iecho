@@ -1,12 +1,12 @@
 {
   "blurb": "Vi tror att vi kan skapa något revolutionerande.",
   "blurb1": "Precis som Stable Diffusion möjliggjorde nya sätt att skapa konst och bilder, strävar vi efter att förbättra världen genom att tillhandahålla konversations-AI i världsklass.",
-  "description": "Konversations-AI för alla. Ett projekt med öppen källkod för att bygga en chattaktiverad GPT stor språkmodell, underhållen av LAION och bidragsgivare runt om i världen.",
+  "description": "Konversations-AI för alla. Ett projekt med öppen källkod för att bygga en chattaktiverad GPT stor språkmodell, underhållen av Open Models och bidragsgivare runt om i världen.",
   "faq_items": {
     "q0": "Hur långt har projektet kommit?",
     "a0": "Vi är i det tidiga utvecklingsstadiet och vårt arbete framåt  bygger på etablerad forskning för att tillämpa RLHF (Reinforcement Learning with Human Feedback) på stora språkmodeller.",
     "q1": "Vem ligger bakom Open Models iEcho?",
-    "a1": "Open Models iEcho är ett projekt organiserat av LAION och individer runt om i världen. Vårt mål är att göra Open Models iEcho-språkmodellen fritt tillgänglig för alla människor.",
+    "a1": "Open Models iEcho är ett projekt organiserat av Open Models och individer runt om i världen. Vårt mål är att göra Open Models iEcho-språkmodellen fritt tillgänglig för alla människor.",
     "q2": "Vilken licens använder Open Models iEcho?",
     "a2": "Koden och modellen är licensierade under Apache 2.0-licensen.",
     "q3": "Kommer träningsdata att publiceras?",

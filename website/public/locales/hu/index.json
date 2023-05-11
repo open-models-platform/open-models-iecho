@@ -1,12 +1,12 @@
 {
   "blurb": "Hiszünk abban, hogy forradalmat indíthatunk.",
   "blurb1": "Ahogy a Stable Diffusion bárki számára lehetővé tette, hogy új módokon hozzon létre műveket és képeket, úgy akarjuk mi is megváltoztatni a világot a társalgási MI-k területén.",
-  "description": "Társalgási MI mindenkinek. Egy nyílt forráskódú projekt, melynek célja egy csevegésre alkalmas GPT nyelvi modell létrehozása, melyet a LAION és a világszintű közreműködői közösség üzemeltet.",
+  "description": "Társalgási MI mindenkinek. Egy nyílt forráskódú projekt, melynek célja egy csevegésre alkalmas GPT nyelvi modell létrehozása, melyet a Open Models és a világszintű közreműködői közösség üzemeltet.",
   "faq_items": {
     "q0": "Hol tart a projekt?",
     "a0": "A fejlesztés korai fázisában vagyunk, már létező kutatásokból kiindulva azon dolgozunk, hogy nagy nyelvi modellekre alkalmazzuk az RLHF módszert.",
     "q1": "Kik állnak az Open Models iEcho mögött?",
-    "a1": "Az Open Models iEcho projekt szervezője a LAION, és azok az emberek, akik szeretnék elérhetővé tenni ezt a technológiát mindenki számára.",
+    "a1": "Az Open Models iEcho projekt szervezője a Open Models, és azok az emberek, akik szeretnék elérhetővé tenni ezt a technológiát mindenki számára.",
     "q2": "Milyen licencet használt az Open Models iEcho?",
     "a2": "A kód és a modellek Apache 2.0 licenc alatt érhetők el.",
     "q3": "A tanítási adatok is közzé lesznek téve?",

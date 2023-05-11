@@ -1,12 +1,12 @@
 {
   "blurb": "Credem că putem crea o revoluție.",
   "blurb1": "În același mod în care Stable Diffusion a ajutat lumea să creeze artă și imagini în moduri noi, vrem să îmbunătățim lumea oferind o IA conversațională uimitoare..",
-  "description": "AI conversațional pentru toată lumea. Un proiect open source pentru a crea un LLM GPT activat prin chat, condus de LAION și de colaboratori din întreaga lume.",
+  "description": "AI conversațional pentru toată lumea. Un proiect open source pentru a crea un LLM GPT activat prin chat, condus de Open Models și de colaboratori din întreaga lume.",
   "faq_items": {
     "q0": "Cât de departe este acest proiect?",
     "a0": "Ne aflăm în stadiile incipiente de dezvoltare, lucrând din cercetările consacrate în aplicarea RLHF la modele de limbaj mari.",
     "q1": "Cine se află în spatele Open Models iEcho?",
-    "a1": "Open Models iEcho este un proiect organizat de LAION și persoane din întreaga lume interesate să aducă această tehnologie tuturor.",
+    "a1": "Open Models iEcho este un proiect organizat de Open Models și persoane din întreaga lume interesate să aducă această tehnologie tuturor.",
     "q2": "Ce licență folosește Open Models iEcho?",
     "a2": "Codul și modelele sunt licențiate sub licența Apache 2.0.",
     "q3": "Vor fi publicate și datele de antrenament?",

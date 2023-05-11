@@ -1,12 +1,12 @@
 {
   "blurb": "Uste dugu iraultza bat sortu dezakegula.",
   "blurb1": "Stable Diffusion-ek munduari artea eta irudiak modu berrietan egiten lagundu zion modu berean, mundua hobetu nahi dugu elkarrizketarako AA harrigarria eskainiz.",
-  "description": "Elkarrizketarako AA guztientzat. Iturburu irekiko proiektua GPT LLM txat bat sortzeko, LAIONek eta mundu osoko laguntzaileek zuzendua",
+  "description": "Elkarrizketarako AA guztientzat. Iturburu irekiko proiektua GPT LLM txat bat sortzeko, Open Modelsek eta mundu osoko laguntzaileek zuzendua",
   "faq_items": {
     "q0": "Noraino doa proiektu hau?",
     "a0": "Garapenaren hasierako faseetan gaude, RLHF hizkuntza-eredu handiei aplikatzeko ezarritako ikerketatik lanean.",
     "q1": "Nor dago Open Models iEcho-en atzean?",
-    "a1": "Open Models iEcho LAIONek eta mundu osoko teknologia hori guztiongana heltzeko interesa duten pertsonek antolatutako proiektua da.",
+    "a1": "Open Models iEcho Open Modelsek eta mundu osoko teknologia hori guztiongana heltzeko interesa duten pertsonek antolatutako proiektua da.",
     "q2": "Zer lizentzia erabiltzen du Open Models iEcho-ek?",
     "a2": "Kodea eta ereduak Apache 2.0 lizentziapean daude lizentziatuta.",
     "q3": "Entrenamendurako datuak ere kaleratuko al dira?",

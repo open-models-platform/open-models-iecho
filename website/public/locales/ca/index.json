@@ -1,12 +1,12 @@
 {
   "blurb": "Creiem que podem crear una revolució.",
   "blurb1": "De la mateixa manera que Stable Diffusion va ajudar el món a crear art i imatges de noves maneres, volem millorar el món proporcionant una IA conversacional sorprenent.",
-  "description": "IA conversacional per a tothom. Un projecte de codi obert per a crear un GPT LLM preparat per a xatejar, administrat per LAION i col·laboradors de tot el món.",
+  "description": "IA conversacional per a tothom. Un projecte de codi obert per a crear un GPT LLM preparat per a xatejar, administrat per Open Models i col·laboradors de tot el món.",
   "faq_items": {
     "q0": "Com d'avançat està el projecte?",
     "a0": "Estem en les primeres etapes de desenvolupament, treballant a partir de la investigació establerta per a aplicar RLHF (aprenentatge per reforç amb realimentació humana) a models de llenguatge de grans dimensions.",
     "q1": "Qui hi ha al darrere d'Open Models iEcho?",
-    "a1": "Open Models iEcho és un projecte organitzat per LAION i persones de tot el planeta interessades a apropar aquesta tecnologia a tothom.",
+    "a1": "Open Models iEcho és un projecte organitzat per Open Models i persones de tot el planeta interessades a apropar aquesta tecnologia a tothom.",
     "q2": "Quina llicència utilitza Open Models iEcho?",
     "a2": "El codi i els models estan llicenciats sota la llicència Apache 2.0.",
     "q3": "Les dades d'entrenament també seran lliures?",

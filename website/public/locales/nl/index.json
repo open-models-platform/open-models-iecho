@@ -1,12 +1,12 @@
 {
   "blurb": "Wij geloven dat we een revolutie kunnen creëren.",
   "blurb1": "Stable Diffusion heeft de artistieke en visuele creatie veranderd door nieuwe benaderingen aan te bieden. Op dezelfde manier streven we ernaar de wereld te veranderen door een uitzonderlijk kwalitatieve conversationale AI aan te bieden.",
-  "description": "Ons doel is conversationale AI voor iedereen toegankelijk te maken. Om dit te bereiken, lanceren we een open-source project om een GPT LLM (taalmodel) voor chat te ontwikkelen, geleid door LAION en ondersteund door bijdragers over de hele wereld.",
+  "description": "Ons doel is conversationale AI voor iedereen toegankelijk te maken. Om dit te bereiken, lanceren we een open-source project om een GPT LLM (taalmodel) voor chat te ontwikkelen, geleid door Open Models en ondersteund door bijdragers over de hele wereld.",
   "faq_items": {
     "q0": "Hoe ver staat dit project?",
     "a0": "Wij bevinden ons in de vroege ontwikkelingsfase en baseren ons op op bestaand onderzoek bij het toepassen van RLHF (reinforcement learning from human feedback) op grote taalmodellen.",
     "q1": "Wie heeft Open Models iEcho opgericht?",
-    "a1": "Open Models iEcho is een project georganiseerd door LAION en mensen over de hele wereld die geïnteresseerd zijn in het beschikbaar maken van technologie voor iedereen.",
+    "a1": "Open Models iEcho is een project georganiseerd door Open Models en mensen over de hele wereld die geïnteresseerd zijn in het beschikbaar maken van technologie voor iedereen.",
     "q2": "Welk type licentie wordt gebruikt door Open Models iEcho?",
     "a2": "De code en modellen hebben een Apache 2.0-licentie.",
     "q3": "Zullen de trainingsgegevens ook worden gepubliceerd?",

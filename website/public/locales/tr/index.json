@@ -1,12 +1,12 @@
 {
   "blurb": "Bir devrim yaratabileceğimize inanıyoruz.",
   "blurb1": "Stable Diffusion'ın dünyanın sanat ve görüntüleri yeni şekillerde yapmasına yardım etmesi gibi, biz de harika diyaloglu yapay zeka sağlayarak dünyayı iyileştirmek istiyoruz.",
-  "description": "Herkes için Sohbet Yapay Zekası. LAION ve dünyanın dört bir yanından katkıda bulunanlar tarafından yürütülen, sohbet özellikli bir GPT LLM oluşturmaya yönelik açık kaynaklı bir proje.",
+  "description": "Herkes için Sohbet Yapay Zekası. Open Models ve dünyanın dört bir yanından katkıda bulunanlar tarafından yürütülen, sohbet özellikli bir GPT LLM oluşturmaya yönelik açık kaynaklı bir proje.",
   "sss_items": {
     "q0": "Bu proje ne kadar ilerledi?",
     "a0": "RLHF'yi büyük dil modellerine uygulamaya yönelik yerleşik araştırmalardan yola çıkarak geliştirmenin ilk aşamalarındayız.",
     "q1": "Open Models iEcho'ın arkasında kim var?",
-    "a1": "Open Models iEcho, LAION ve dünya genelinde bu teknolojiyi herkese ulaştırmakla ilgilenen kişiler tarafından düzenlenen bir projedir.",
+    "a1": "Open Models iEcho, Open Models ve dünya genelinde bu teknolojiyi herkese ulaştırmakla ilgilenen kişiler tarafından düzenlenen bir projedir.",
     "q2": "Open Models iEcho hangi lisansı kullanıyor?",
     "a2": "Kod ve modeller Apache 2.0 lisansı altında lisanslanmıştır.",
     "q3": "Eğitim verileri de yayınlanacak mı?",

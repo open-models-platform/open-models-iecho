@@ -1,12 +1,12 @@
 {
   "blurb": "我们相信我们即将创造一场革命",
   "blurb1": "正如 Stable Diffusion 改变了现代艺术的创作过程, 我们将透过对话式 AI 来改变世界.",
-  "description": "面向所有人的对话式 AI, 这是一个由 LAION 和全球贡献者共同开发的 GPT LLM 项目.",
+  "description": "面向所有人的对话式 AI, 这是一个由 Open Models 和全球贡献者共同开发的 GPT LLM 项目.",
   "faq_items": {
     "q0": "这个项目进展如何?",
     "a0": "我们处于研发的初期阶段, 目前正参照现有研究将 RLHF 应用于 LLM.",
     "q1": "谁在支持 Open Models iEcho?",
-    "a1": "Open Models iEcho 是由 LAION 和全球贡献者组织的项目.",
+    "a1": "Open Models iEcho 是由 Open Models 和全球贡献者组织的项目.",
     "q2": "Open Models iEcho 使用什么开源协议?",
     "a2": "代码和模型均使用 Apache 2.0 许可证.",
     "q3": "训练数据也会公开吗?",

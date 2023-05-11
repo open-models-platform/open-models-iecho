@@ -1,12 +1,12 @@
 {
   "blurb": "Verjamemo, da lahko ustvarimo revolucijo.",
   "blurb1": "Na isti način kot je Stable Diffusion pomagal svetu ustvarjati umetnost in slike na nove načine, si želimo izboljšati svet z izjemnim pogovornim AI.",
-  "description": "Pogovorni AI za vsakogar. Odprto kodni projekt za pogovore omogoča GPT LLM podprt s strani LAION in sodelavcev s celega sveta.",
+  "description": "Pogovorni AI za vsakogar. Odprto kodni projekt za pogovore omogoča GPT LLM podprt s strani Open Models in sodelavcev s celega sveta.",
   "faq_items": {
     "q0": "Kako daleč je ta projekt?",
     "a0": "Smo v zgodnjih fazah razvoja, delamo z uporabo uveljavljenih raziskav RLHF in velikih jezikovnih modelov.",
     "q1": "Kdo stoji za Open Models iEcho?",
-    "a1": "Open Models iEcho je preojekt organiziran s strani LAION in pozameznikov s celega sveta, ki so zainteresirani pri omogočanju te tehnologije za vsakogar.",
+    "a1": "Open Models iEcho je preojekt organiziran s strani Open Models in pozameznikov s celega sveta, ki so zainteresirani pri omogočanju te tehnologije za vsakogar.",
     "q2": "Kakšno licenco uporablja Open Models iEcho?",
     "a2": "Programska koda in modeli so licencirani z Apache 2.0 licenco.",
     "q3": "Ali bodo trenirani podatki tudi izdani?",

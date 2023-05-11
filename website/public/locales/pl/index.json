@@ -1,12 +1,12 @@
 {
   "blurb": "Wierzymy, że możemy stworzyć rewolucję.",
   "blurb1": "Tak jak Stable Diffusion pomaga światu tworzyć sztukę i obrazy na inne sposoby, chcemy wzbogacić świat poprzez dostarczenie niesamowitej konwersacyjnej SI.",
-  "description": "Konwersacyjna SI dla każdego. Projekt w formie otwartego oprogramowania mający na celu utworzenie czatu wspomaganego przez GPT LLM kierowany przez LAION i uczestników z całego świata.",
+  "description": "Konwersacyjna SI dla każdego. Projekt w formie otwartego oprogramowania mający na celu utworzenie czatu wspomaganego przez GPT LLM kierowany przez Open Models i uczestników z całego świata.",
   "faq_items": {
     "q0": "W jakim stopniu zaawansowania jest projekt?",
     "a0": "Jesteśmy w początkowych fazach rozwoju, pracujemy na bazie potwierdzonych badań w aplikowaniu RLHF (uczenie ze wzmocnieniem na podstawie ludzkiej informacji zwrotnej) do wielkich modeli językowych.",
     "q1": "Kto stoi za Open Models iEcho?",
-    "a1": "Open Models iEcho to projekt zorganizowany przez LAION i osoby z całego świata chętne dostarczenia tej technologii dla każdego.",
+    "a1": "Open Models iEcho to projekt zorganizowany przez Open Models i osoby z całego świata chętne dostarczenia tej technologii dla każdego.",
     "q2": "Jakiej licencji używa Open Models iEcho?",
     "a2": "Kod i modele podlegają pod licencję Apache 2.0",
     "q3": "Czy dane treningowe zostaną opublikowane?",

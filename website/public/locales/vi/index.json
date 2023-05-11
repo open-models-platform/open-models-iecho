@@ -1,7 +1,7 @@
 {
   "blurb": "Đây sẽ là cuộc cách mạng trí tuệ nhân tạo mới.",
   "blurb1": "Giống như cách Stable Diffusion đã giúp con người tạo ra tác phẩm nghệ thuật, Open Models iEcho sẽ giúp con người với vai trò là trợ lý ảo mã nguồn mở.",
-  "description": "Chatbot trí tuệ nhân tạo mã nguồn mở, dựa trên mô hình ngôn ngữ lớn của LAION và các tình nguyện viên.",
+  "description": "Chatbot trí tuệ nhân tạo mã nguồn mở, dựa trên mô hình ngôn ngữ lớn của Open Models và các tình nguyện viên.",
   "faq_items": {
     "q0": "Dự án Open Models iEcho bây giờ thế nào rồi?",
     "a0": "Open Models iEcho hiện nay đang được trong các giai đoạn phát triển đầu tiên.",

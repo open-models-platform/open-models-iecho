@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This provides a comprehensive webapp interface for LAION's Open Models iEcho project. Initially it will support:
+This provides a comprehensive webapp interface for Open Models's Open Models iEcho project. Initially it will support:
 
 1. User registration using either Discord or Email.
 1. Adding responses to incomplete Open Models iEcho tasks.

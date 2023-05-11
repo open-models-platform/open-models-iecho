@@ -319,7 +319,7 @@ The major contributors, founders and initiators are Yannic Kilcher
 [YouTube channel](https://www.youtube.com/@YannicKilcher) with a large
 community, [Andreas Köpf](https://github.com/andreaskoepf), who is the Tech
 Lead, [Christoph Schumann](https://github.com/christophschuhmann), who is the
-Organizational Lead and a founder of [LAION](https://open.models.platform/), and Huu Nguyen,
+Organizational Lead and a founder of [Open Models](https://open.models.platform/), and Huu Nguyen,
 from [Ontocord](https://github.com/ontocord).
 
 There's a [Teams page](https://open-models-iecho.io/team) and a

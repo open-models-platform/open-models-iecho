@@ -1,12 +1,12 @@
 {
   "blurb": "Ni kredas, ke ni povas krei revolucion.",
   "blurb1": "Sammaniere kiel Stable Difusion helpis la mondon krei arton kaj bildojn per novaj manieroj, ni volas plibonigi la mondon per provizado de mirindaj konversaciaj AI.",
-  "description": "Konversacia AI por ĉiuj. Malferma fonta projekto por krei babileblan GPT LLM gvidatan de LAION kaj kontribuantoj el la tuta mondo.",
+  "description": "Konversacia AI por ĉiuj. Malferma fonta projekto por krei babileblan GPT LLM gvidatan de Open Models kaj kontribuantoj el la tuta mondo.",
   "faq_items": {
     "q0": "Kiom antaŭen estas tiu projekto?",
     "a0": "Ni estas en la fruaj fazoj de evoluigo, laborante laŭ establita esplorado pri aplikado de RLHF al grandaj lingvaj modeloj.",
     "q1": "Kiu staras malantaŭ Open Models iEcho?",
-    "a1": "Open Models iEcho estas projekto organizita de LAION kaj individuoj el la tuta mondo interesitaj pri alporti tiun teknologion al ĉiuj.",
+    "a1": "Open Models iEcho estas projekto organizita de Open Models kaj individuoj el la tuta mondo interesitaj pri alporti tiun teknologion al ĉiuj.",
     "q2": "Kian permesilon uzas Open Models iEcho?",
     "a2": "La kodo kaj modeloj estas permesitaj sub la Apache 2.0 permesilo.",
     "q3": "Ĉu la trejnaj datumoj ankaŭ estos liberigitaj?",

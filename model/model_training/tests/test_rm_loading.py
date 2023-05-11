@@ -28,7 +28,7 @@ def test_load_reward_model(model_name: str = "andreaskoepf/oasst-rm-1-pythia-1b"
     rm = AutoModelForSequenceClassification.from_pretrained(model_name, cache_dir=cache_dir)
     print("auto", type(rm))
     print("auto.config", type(rm.config))
-    question = "<|prompter|>Hi how are you?<|endoftext|><|assistant|>Hi, I am open-models-iecho a large open-source language model trained by LAION AI. How can I help you today?<|endoftext|>"
+    question = "<|prompter|>Hi how are you?<|endoftext|><|assistant|>Hi, I am open-models-iecho a large open-source language model trained by Open Models AI. How can I help you today?<|endoftext|>"
     inputs = tokenizer(question, return_tensors="pt")
     print(inputs)
     score = rm(**inputs).logits[0].cpu().detach()

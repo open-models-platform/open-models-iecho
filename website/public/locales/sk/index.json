@@ -1,12 +1,12 @@
 {
   "blurb": "Veríme, že dokážeme vytvoriť revolúciu.",
   "blurb1": "Rovnakým spôsobom, akým spoločnosť Stable Diffusion pomohla svetu vytvárať umenie a obrazy novými spôsobmi, chceme zlepšiť svet poskytovaním úžasnej konverzačnej umelej inteligencie.",
-  "description": "Konverzačná AI pre každého. Projekt s otvoreným zdrojovým kódom na vytvorenie GPT LLM s možnosťou konverzácie, ktorý prevádzkuje LAION a prispievatelia z celého sveta.",
+  "description": "Konverzačná AI pre každého. Projekt s otvoreným zdrojovým kódom na vytvorenie GPT LLM s možnosťou konverzácie, ktorý prevádzkuje Open Models a prispievatelia z celého sveta.",
   "faq_items": {
     "q0": "Ako ďaleko je tento projekt?",
     "a0": "Sme v počiatočnom štádiu vývoja, pracujeme na základe zavedeného výskumu v oblasti uplatňovania RLHF na veľké jazykové modely.",
     "q1": "Kto stojí za projektom Open Models iEcho?",
-    "a1": "Open Models iEcho je projekt organizovaný spoločnosťou LAION a jednotlivcami z celého sveta, ktorí majú záujem sprístupniť túto technológiu všetkým.",
+    "a1": "Open Models iEcho je projekt organizovaný spoločnosťou Open Models a jednotlivcami z celého sveta, ktorí majú záujem sprístupniť túto technológiu všetkým.",
     "q2": "Akú licenciu používa Open Models iEcho?",
     "a2": "Kód a modely sú licencované pod licenciou Apache 2.0.",
     "q3": "Budú zverejnené aj údaje o tréningu?",

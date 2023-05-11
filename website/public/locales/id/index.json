@@ -1,12 +1,12 @@
 {
   "blurb": "Kami percaya kita dapat memulai revolusi.",
   "blurb1": "Dengan cara yang sama Stable Diffusion membantu dunia membuat seni dan gambar dengan cara baru, kami ingin meningkatkan dunia dengan menyediakan AI percakapan yang luar biasa.",
-  "description": "AI Percakapan untuk semua orang. Proyek sumber terbuka untuk membuat model bahasa yang didukung chat oleh LAION dan kontributor di seluruh dunia.",
+  "description": "AI Percakapan untuk semua orang. Proyek sumber terbuka untuk membuat model bahasa yang didukung chat oleh Open Models dan kontributor di seluruh dunia.",
   "faq_items": {
     "q0": "Sampai tahap seperti apa proyek ini?",
     "a0": "Kami masih berada pada tahap awal pengembangan, bekerja dengan melakukan penelitian yang sudah ada tentang penerapan RLHF pada model bahasa besar.",
     "q1": "Siapa yang berada di belakang Open Models iEcho?",
-    "a1": "Open Models iEcho adalah sebuah proyek yang didirikan oleh LAION dan individu di seluruh dunia yang tertarik untuk membawa teknologi ini kepada semua orang.",
+    "a1": "Open Models iEcho adalah sebuah proyek yang didirikan oleh Open Models dan individu di seluruh dunia yang tertarik untuk membawa teknologi ini kepada semua orang.",
     "q2": "Lisensi apa yang digunakan Open Models iEcho?",
     "a2": "Kode dan model dilisensikan di bawah lisensi Apache 2.0.",
     "q3": "Apakah data pelatihan juga akan dirilis?",

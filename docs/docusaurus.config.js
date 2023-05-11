@@ -114,7 +114,7 @@ const config = {
                                 href: "https://ykilcher.com/open-models-iecho-discord"
                             },
                             {
-                                label: "LAION Discord",
+                                label: "Open Models Discord",
                                 href: "https://discord.com/invite/mVcgxMPD7e"
                             },
                             {

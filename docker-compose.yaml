@@ -12,7 +12,7 @@ services:
   # This DB is for the FastAPI Backend.
   db:
     platform: "${DB_PLATFORM:-}"
-    image: ghcr.io/open-models-platform/open-models-iecho/oasst-postgres
+    image: ghcr.io/laion-ai/open-assistant/oasst-postgres
     pull_policy: always
     restart: always
     profiles: [ "frontend-dev", "backend-dev", "ci", "inference-dev" ]

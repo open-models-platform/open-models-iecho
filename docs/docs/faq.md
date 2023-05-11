@@ -121,7 +121,7 @@ wide range of uses including commercial use.
 
 </summary>
 
-Open Models iEcho is a project organized by [LAION](https://open.models.platform/) and
+Open Models iEcho is a project organized by [Open Models](https://open.models.platform/) and
 developed by a team of volunteers worldwide. You can see an incomplete list of
 developers on [our website](https://open-models-iecho.io/team).
 
@@ -140,7 +140,7 @@ you to everyone who has taken part!
 
 The model code, weights, and data are free. We are additionally hosting a free
 public instance of our best current model for as long as we can thanks to
-compute donation from Stability AI via LAION!
+compute donation from Stability AI via Open Models!
 
 </details>
 

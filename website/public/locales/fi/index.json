@@ -1,12 +1,12 @@
 {
   "blurb": "Uskomme, että voimme käynnistää vallankumouksen.",
   "blurb1": "Siinä missä Stable Diffusion mahdollisti kuvien ja taiteen luomisen uusilla tavoilla, Open Models iEcho parantaa maailmaa toteuttamalla vapaan ja hyvän keskustelevan tekoälyn.",
-  "description": "Keskusteleva tekoäly kaikkien saataville. LAIONin ja osallistujien ympäri maailmaa projekti keskustelevan GPT-kielimallin luomiseksi.",
+  "description": "Keskusteleva tekoäly kaikkien saataville. Open Modelsin ja osallistujien ympäri maailmaa projekti keskustelevan GPT-kielimallin luomiseksi.",
   "faq_items": {
     "q0": "Kuinka pitkällä projekti on?",
     "a0": "Olemme vasta alustavassa kehitysvaiheessa. Työskentelemme soveltaaksemme RLHF-menetelmiä isoihin kielimalleihin.",
     "q1": "Kuka on Open Models iEchoin takana?",
-    "a1": "Open Models iEchoin takana on LAION sekä yksityishenkilöitä ympäri maailmaa, jotka haluavat saada keskustelevat tekoälyt kaikkien saataville.",
+    "a1": "Open Models iEchoin takana on Open Models sekä yksityishenkilöitä ympäri maailmaa, jotka haluavat saada keskustelevat tekoälyt kaikkien saataville.",
     "q2": "Miten Open Models iEcho on lisensoitu?",
     "a2": "Koodi ja mallit lisensoidaan Apache 2.0 -lisenssillä.",
     "q3": "Julkaistaanko koulutusdata?",

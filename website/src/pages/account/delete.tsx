@@ -36,7 +36,7 @@ export default function DeleteAccount() {
         <title>Open Models iEcho</title>
         <meta
           name="description"
-          content="Conversational AI for everyone. An open source project to create a chat enabled GPT LLM run by LAION and contributors around the world."
+          content="Conversational AI for everyone. An open source project to create a chat enabled GPT LLM run by Open Models and contributors around the world."
         />
       </Head>
       <SurveyCard

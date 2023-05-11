@@ -11,17 +11,17 @@ const TermsData = [
       {
         number: "1.1",
         title: "",
-        desc: `LAION e.V., Herman-Lange-Weg 26, 21035 Hamburg, Germany (hereinafter referred to as: "LAION") operates an online portal for the production of a machine learning model called Open Models iEcho using crowd-sourced data.`,
+        desc: `Open Models e.V., Herman-Lange-Weg 26, 21035 Hamburg, Germany (hereinafter referred to as: "Open Models") operates an online portal for the production of a machine learning model called Open Models iEcho using crowd-sourced data.`,
       },
       {
         number: "1.2",
         title: "",
-        desc: "The present terms of use regulate the user relationship between the users of the portal and LAION.",
+        desc: "The present terms of use regulate the user relationship between the users of the portal and Open Models.",
       },
       {
         number: "1.3",
         title: "",
-        desc: "LAION reserves the right to amend these Terms of Use at any time, also with regard to persons already registered, if this becomes necessary due to changes in the law, changes in jurisdiction, changes in economic circumstances or gaps in these Terms of Use that subsequently become apparent. The user will be informed of such changes in good time by e-mail The user has the opportunity to object to the changes within 14 days of receipt of this e-mail. If the user does not object to the changes and continues to use the portal after expiry of the objection period, the changes shall be deemed to have been agreed effectively from the expiry of the period. If the user objects to the changes within the two-week period, LAION shall be entitled to exclude the user from using the portal. The user shall be informed of these effects once again in the e-mail.",
+        desc: "Open Models reserves the right to amend these Terms of Use at any time, also with regard to persons already registered, if this becomes necessary due to changes in the law, changes in jurisdiction, changes in economic circumstances or gaps in these Terms of Use that subsequently become apparent. The user will be informed of such changes in good time by e-mail The user has the opportunity to object to the changes within 14 days of receipt of this e-mail. If the user does not object to the changes and continues to use the portal after expiry of the objection period, the changes shall be deemed to have been agreed effectively from the expiry of the period. If the user objects to the changes within the two-week period, Open Models shall be entitled to exclude the user from using the portal. The user shall be informed of these effects once again in the e-mail.",
       },
     ],
   },
@@ -43,7 +43,7 @@ const TermsData = [
       {
         number: "2.3",
         title: "",
-        desc: "LAION shall endeavour to ensure that the portal can be used as uninterruptedly as possible. However, there shall be no legal claim to the use of the portal. LAION reserves the right, at its own discretion, to change the portal at any time and without notice, to discontinue its operation or to exclude individual users from using it. Furthermore, it cannot be ruled out that temporary restrictions or interruptions may occur due to technical faults (such as interruption of the power supply, hardware and software errors, technical problems in the data lines).",
+        desc: "Open Models shall endeavour to ensure that the portal can be used as uninterruptedly as possible. However, there shall be no legal claim to the use of the portal. Open Models reserves the right, at its own discretion, to change the portal at any time and without notice, to discontinue its operation or to exclude individual users from using it. Furthermore, it cannot be ruled out that temporary restrictions or interruptions may occur due to technical faults (such as interruption of the power supply, hardware and software errors, technical problems in the data lines).",
       },
     ],
   },
@@ -55,7 +55,7 @@ const TermsData = [
       {
         number: "3.1",
         title: "",
-        desc: "The user may only use the portal for the intended purposes. In particular, he/she may not misuse the portal. The user undertakes to refrain from generating text that violate criminal law, youth protection regulations or the applicable laws of the following countries: Federal Republic of Germany, United States of America (USA), Great Britain, user's place of residence. In particular it is prohibited to enter texts that lead to the creation of pornographic, violence-glorifying or paedosexual content and/or content that violates the personal rights of third parties. LAION reserves the right to file a criminal complaint with the competent authorities in the event of violations.",
+        desc: "The user may only use the portal for the intended purposes. In particular, he/she may not misuse the portal. The user undertakes to refrain from generating text that violate criminal law, youth protection regulations or the applicable laws of the following countries: Federal Republic of Germany, United States of America (USA), Great Britain, user's place of residence. In particular it is prohibited to enter texts that lead to the creation of pornographic, violence-glorifying or paedosexual content and/or content that violates the personal rights of third parties. Open Models reserves the right to file a criminal complaint with the competent authorities in the event of violations.",
       },
       {
         number: "3.2",
@@ -65,7 +65,7 @@ const TermsData = [
       {
         number: "3.3",
         title: "",
-        desc: "If a user notices obvious errors in the portal which could lead to misuse of the portal or the contents contained therein, the user shall be obliged to report the error to LAION without delay.",
+        desc: "If a user notices obvious errors in the portal which could lead to misuse of the portal or the contents contained therein, the user shall be obliged to report the error to Open Models without delay.",
       },
       {
         number: "3.4",
@@ -82,37 +82,37 @@ const TermsData = [
       {
         number: "4.1",
         title: "",
-        desc: "LAION accepts no liability for the accuracy, completeness, reliability, up-to-dateness and usability of the content.",
+        desc: "Open Models accepts no liability for the accuracy, completeness, reliability, up-to-dateness and usability of the content.",
       },
       {
         number: "4.2",
         title: "",
-        desc: "LAION shall be liable without limitation for intent and gross negligence. In the case of simple negligence, LAION shall only be liable for damage resulting from injury to life, limb or health or an essential contractual obligation (obligation the fulfillment of which makes the proper performance of the contract possible in the first place and on the observance of which the contractual partner regularly trusts and may trust).",
+        desc: "Open Models shall be liable without limitation for intent and gross negligence. In the case of simple negligence, Open Models shall only be liable for damage resulting from injury to life, limb or health or an essential contractual obligation (obligation the fulfillment of which makes the proper performance of the contract possible in the first place and on the observance of which the contractual partner regularly trusts and may trust).",
       },
       {
         number: "4.3",
         title: "",
-        desc: "In the event of a breach of material contractual obligations due to simple negligence, the liability of LAION shall be limited to the amount of the foreseeable, typically occurring damage. In all other respects liability shall be excluded.",
+        desc: "In the event of a breach of material contractual obligations due to simple negligence, the liability of Open Models shall be limited to the amount of the foreseeable, typically occurring damage. In all other respects liability shall be excluded.",
       },
       {
         number: "4.4",
         title: "",
-        desc: "The above limitations of liability shall also apply in favour of the legal representatives and vicarious agents of LAION.",
+        desc: "The above limitations of liability shall also apply in favour of the legal representatives and vicarious agents of Open Models.",
       },
       {
         number: "4.5",
         title: "",
-        desc: "LAION shall not be liable for the loss of data of the user. The user shall be solely responsible for the secure storage of his/her data.",
+        desc: "Open Models shall not be liable for the loss of data of the user. The user shall be solely responsible for the secure storage of his/her data.",
       },
       {
         number: "4.6",
         title: "",
-        desc: "LAION shall not be liable for any damages incurred by the user as a result of the violation of these terms of use.",
+        desc: "Open Models shall not be liable for any damages incurred by the user as a result of the violation of these terms of use.",
       },
       {
         number: "4.7",
         title: "",
-        desc: "LAION shall not be liable for the use of content generated on the portal by text input outside the portal. In particular, LAION shall not be liable for any damages incurred by the user due to the assumption of copyrights or exclusive rights of use.",
+        desc: "Open Models shall not be liable for the use of content generated on the portal by text input outside the portal. In particular, Open Models shall not be liable for any damages incurred by the user due to the assumption of copyrights or exclusive rights of use.",
       },
     ],
   },
@@ -124,12 +124,12 @@ const TermsData = [
       {
         number: "5.1",
         title: "",
-        desc: "LAION processes the personal data of users in accordance with the provisions of data protection law. Detailed information can be found in the privacy policy, available at: /privacy-policy.",
+        desc: "Open Models processes the personal data of users in accordance with the provisions of data protection law. Detailed information can be found in the privacy policy, available at: /privacy-policy.",
       },
       {
         number: "5.2",
         title: "",
-        desc: "The user expressly agrees that communication within the scope of and for the purpose of the user relationship between him/her and LAION may also take place via unencrypted e-mails. The user is aware that unencrypted e-mails only offer limited security and confidentiality.",
+        desc: "The user expressly agrees that communication within the scope of and for the purpose of the user relationship between him/her and Open Models may also take place via unencrypted e-mails. The user is aware that unencrypted e-mails only offer limited security and confidentiality.",
       },
     ],
   },
@@ -151,7 +151,7 @@ const TermsData = [
       {
         number: "6.3",
         title: "",
-        desc: "If the customer is a merchant, a legal entity under public law or a special fund under public law, the place of jurisdiction for all disputes arising from and in connection with contracts concluded under these terms of use shall be the registered office of LAION.",
+        desc: "If the customer is a merchant, a legal entity under public law or a special fund under public law, the place of jurisdiction for all disputes arising from and in connection with contracts concluded under these terms of use shall be the registered office of Open Models.",
       },
     ],
   },
